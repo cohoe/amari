@@ -8,7 +8,7 @@
     <database id="2" parent="1" name="amari">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>15883</IntrospectionStateNumber>
+      <IntrospectionStateNumber>15886</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -65,7 +65,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>15884</IntrospectionStateNumber>
+      <IntrospectionStateNumber>15887</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="16" parent="2" name="heap">
@@ -223,11 +223,11 @@
       <StateNumber>15868</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="38" parent="25" name="type">
+    <column id="38" parent="25" name="kind">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>15868</StateNumber>
+      <StateNumber>15885</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="39" parent="25" name="parent">
