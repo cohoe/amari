@@ -14,3 +14,7 @@ Random thoughts from a while ago
 * resolve specific vs generic
 * spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
+
+Features
+* Logging
+* get_usable_ingredients in an expandable way
