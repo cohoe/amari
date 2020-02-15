@@ -1,7 +1,7 @@
 ToDo
 ====
 
-* Clean up tree
+* Clean up tree (left: spirits, syrup, liqueur)
 * Clean up tree code
 * Ingredient links???
 * Enforce glassware/units
