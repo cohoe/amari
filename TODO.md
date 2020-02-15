@@ -4,13 +4,10 @@ ToDo
 * Clean up tree
 * Clean up tree code
 * Ingredient links???
-* Aliases
 * Enforce glassware/units
 
 aliases to work out:
 * white rum -> light rum
-* bianco-vermouth/white-vermouth -> blanc-vermouth (all of them)
-* irish cream <- cream liqueur
 
 Random thoughts from a while ago
 * Search by drink name or ingredient
