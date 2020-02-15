@@ -8,7 +8,7 @@
     <database id="2" parent="1" name="amari">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>15888</IntrospectionStateNumber>
+      <IntrospectionStateNumber>15970</IntrospectionStateNumber>
       <Current>1</Current>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -65,7 +65,7 @@
       <Comment>standard public schema</Comment>
       <StateNumber>276</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>15889</IntrospectionStateNumber>
+      <IntrospectionStateNumber>15971</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="16" parent="2" name="heap">
@@ -137,9 +137,9 @@
       <StateNumber>511</StateNumber>
     </table>
     <table id="25" parent="15" name="ingredients">
-      <ObjectId>16449</ObjectId>
+      <ObjectId>16516</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>15868</StateNumber>
+      <StateNumber>15966</StateNumber>
     </table>
     <column id="26" parent="24" name="slug">
       <Position>1</Position>
@@ -213,39 +213,45 @@
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>15868</StateNumber>
+      <StateNumber>15966</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="37" parent="25" name="display_name">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>15868</StateNumber>
+      <StateNumber>15966</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="38" parent="25" name="kind">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>15885</StateNumber>
+      <StateNumber>15966</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="39" parent="25" name="parent">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>15868</StateNumber>
+      <StateNumber>15966</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="40" parent="25" name="ingredients_pkey">
-      <ObjectId>16455</ObjectId>
-      <StateNumber>15868</StateNumber>
+    <column id="40" parent="25" name="aliases">
+      <Position>5</Position>
+      <DataType>character varying[]|0s</DataType>
+      <StateNumber>15966</StateNumber>
+      <TypeId>1015</TypeId>
+    </column>
+    <index id="41" parent="25" name="ingredients_pkey">
+      <ObjectId>16522</ObjectId>
+      <StateNumber>15966</StateNumber>
       <ColNames>slug</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="41" parent="25" name="ingredients_pkey">
-      <ObjectId>16456</ObjectId>
-      <StateNumber>15868</StateNumber>
+    <key id="42" parent="25" name="ingredients_pkey">
+      <ObjectId>16523</ObjectId>
+      <StateNumber>15966</StateNumber>
       <ColNames>slug</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>ingredients_pkey</UnderlyingIndexName>
