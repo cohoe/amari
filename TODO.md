@@ -5,8 +5,6 @@ ToDo
 * Clean up tree code
 * Ingredient links???
 * Enforce glassware/units
-* IngredientType[index] - something with a custom view?
-  * white rum, peaty scotch, jamaican rum, schnapps
 
 aliases to work out:
 * white rum -> light rum
@@ -23,4 +21,3 @@ Random thoughts from a while ago
 
 Features
 * Logging
-* get_usable_ingredients in an expandable way
