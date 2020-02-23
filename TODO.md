@@ -4,6 +4,7 @@ ToDo
 * Clean up tree code
 * Ingredient links???
 * Enforce glassware/units
+* cache the tree
 
 aliases to work out:
 * white rum -> light rum
