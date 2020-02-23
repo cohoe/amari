@@ -2,12 +2,9 @@ ToDo
 ====
 
 * Clean up tree code
-* Ingredient links???
 * Enforce glassware/units
 * cache the tree
-
-aliases to work out:
-* white rum -> light rum
+* cache generation cleanup in jamaica
 
 Random thoughts from a while ago
 * Search by drink name or ingredient
