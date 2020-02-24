@@ -1,15 +1,19 @@
 ToDo
 ====
 
+Code
+----
+* Bring cocktail code up to snuff
+* ElasticSearch integration via Import
 * Enforce glassware/units
-
-Random thoughts from a while ago
-* Search by drink name or ingredient
-* "make me something" spin the wheel
-* link and track multiple specs
-* Collections (based on book, bar, something)
 * spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
 
-Features
-* Logging
+API Functions
+-------------
+* Search by drink name or ingredient
+* "make me something" spin the wheel
+
+Data Model
+----------
+* Collections (based on book, bar, something)
