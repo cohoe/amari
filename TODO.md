@@ -1,10 +1,7 @@
 ToDo
 ====
 
-* Clean up tree code
 * Enforce glassware/units
-* cache the tree
-* cache generation cleanup in jamaica
 
 Random thoughts from a while ago
 * Search by drink name or ingredient
