@@ -4,8 +4,8 @@ ToDo
 Code
 ----
 * Move ingredient validator code from model to dedicated validator framework
-* Bring cocktail code up to snuff
 * ElasticSearch integration via Import
+* Search index needs ingredient and all its parents
 * Enforce glassware/units
 * spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
