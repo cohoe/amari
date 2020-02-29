@@ -10,6 +10,7 @@ Code
 * spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
 * Tests
+* IngredientKind "Preparation" (Orange Wheel, Lime Wedge, etc. Maybe kill rinds?)
 
 API Functions
 -------------
