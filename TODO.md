@@ -10,6 +10,7 @@ Code
 * spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
 * Tests
+* Do name -> [slug, display_name] in factory not in objects (spec, garnish, etc)
 
 API Functions
 -------------
