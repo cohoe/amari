@@ -133,6 +133,7 @@
     </extension>
     <table id="24" parent="15" name="cocktails">
       <ObjectId>16393</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>511</StateNumber>
     </table>
