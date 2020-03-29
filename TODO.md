@@ -4,7 +4,6 @@ ToDo
 Code
 ----
 * Move ingredient validator code from model to dedicated validator framework
-* spec.consturction enum [snken, stirred, other]
 * auto-generate instructions?
 * Tests
 
