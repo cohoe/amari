@@ -6,6 +6,7 @@ Code
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests
+* Split Search views of objects vs Database (parents not in DB but in Search)
 
 API Functions
 -------------
