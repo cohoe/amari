@@ -16,3 +16,8 @@ API Functions
 Data Model
 ----------
 * Collections (based on book, bar, something)
+
+Future Ideas
+------------
+Interactive drink builder. Start with a template, and swap out different
+components. Split things, maybe some ML to make suggestions?
