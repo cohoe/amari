@@ -4,6 +4,7 @@ ToDo
 Code
 ----
 * Convert Jamaica to a swagger-compatible library (MAJOR)
+* Add alphabet searching to cocktail search api
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests
