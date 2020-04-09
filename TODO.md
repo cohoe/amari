@@ -3,6 +3,8 @@ ToDo
 
 Code
 ----
+* Make search by more than just alpha work again, and use proper objects
+* Also sort by alpha instead of score with alpha
 * Convert Jamaica to a swagger-compatible library (MAJOR)
 * Add alphabet searching to cocktail search api
 * Move ingredient validator code from model to dedicated validator framework
