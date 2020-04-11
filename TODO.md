@@ -21,5 +21,7 @@ Data Model
 
 Future Ideas
 ------------
-Interactive drink builder. Start with a template, and swap out different
-components. Split things, maybe some ML to make suggestions?
+* Interactive drink builder. Start with a template, and swap out different
+  components. Split things, maybe some ML to make suggestions?
+* Purchase tracker. Log your purchases to generate an average cost. Maybe
+  also have a price logger? Focus on the first one.
