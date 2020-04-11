@@ -3,7 +3,7 @@ ToDo
 
 Code
 ----
-* Also sort by alpha instead of score with alpha
+* Notes is double text fielding. Suspect bad import to the database.
 * Convert Jamaica to a swagger-compatible library (MAJOR)
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
