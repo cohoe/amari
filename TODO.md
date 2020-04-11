@@ -3,6 +3,8 @@ ToDo
 
 Code
 ----
+* Consider replacing "components" with "ingredients" and figuring out a way to 
+  keep them all straight.
 * Notes is double text fielding. Suspect bad import to the database.
 * Convert Jamaica to a swagger-compatible library (MAJOR)
 * Move ingredient validator code from model to dedicated validator framework
