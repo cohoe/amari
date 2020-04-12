@@ -3,10 +3,10 @@ ToDo
 
 Code
 ----
+* Couple last models to build for the api endpoints that dont have them.
 * Consider replacing "components" with "ingredients" and figuring out a way to 
   keep them all straight.
-* Notes is double text fielding. Suspect bad import to the database.
-* Convert Jamaica to a swagger-compatible library (MAJOR)
+* Notes is double text fielding. Suspect bad import to the database. (la-conferencia)
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests
