@@ -4,9 +4,9 @@ ToDo
 Code
 ----
 * Couple last models to build for the api endpoints that dont have them.
+* Move request param parsing out of searchquery objects (specifically, split on comma)
 * Consider replacing "components" with "ingredients" and figuring out a way to 
   keep them all straight.
-* Notes is double text fielding. Suspect bad import to the database. (la-conferencia)
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests
@@ -14,7 +14,6 @@ Code
 
 API Functions
 -------------
-* Search by drink name or ingredient
 * "make me something" spin the wheel
 
 Data Model
