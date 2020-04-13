@@ -3,7 +3,6 @@ ToDo
 
 Code
 ----
-* Couple last models to build for the api endpoints that dont have them.
 * Move request param parsing out of searchquery objects (specifically, split on comma)
 * Consider replacing "components" with "ingredients" and figuring out a way to 
   keep them all straight.
