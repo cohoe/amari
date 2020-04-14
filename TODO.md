@@ -3,7 +3,6 @@ ToDo
 
 Code
 ----
-* Move request param parsing out of searchquery objects (specifically, split on comma)
 * Consider replacing "components" with "ingredients" and figuring out a way to 
   keep them all straight.
 * Move ingredient validator code from model to dedicated validator framework
