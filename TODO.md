@@ -3,9 +3,10 @@ ToDo
 
 Code
 ----
-* Consider replacing "components" with "ingredients" and figuring out a way to 
-  keep them all straight.
+* Consider replacing "components" with "ingredients" and figuring out a way to keep them all straight.
+* Deprecate index commands
 * Move ingredient validator code from model to dedicated validator framework
+* Ensure validate happens before insert into database or index
 * auto-generate instructions?
 * Tests
 * Move database connection config to the Config service.
