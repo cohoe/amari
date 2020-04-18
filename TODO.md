@@ -3,11 +3,15 @@ ToDo
 
 Code
 ----
-* Build crazy complex cocktail model
+* Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Consider replacing "components" with "ingredients" and figuring out a way to keep them all straight.
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests
+* Deprecate spec_count? Maybe make an Object property instead of an actual data field?
+* Unify spec_component and garnish objects
+* Pull parent calculation out of drink GETing? Should only need for index.
+* Prevent empty []'s from getting stored in the database 
 
 API Functions
 -------------
@@ -15,7 +19,11 @@ API Functions
 
 Data Model
 ----------
+* Citation has notes?
+* Rip out status
+* Convert author to authors and enforce list
 * Collections (based on book, bar, something)
+* Actually do tags
 
 Future Ideas
 ------------
