@@ -8,6 +8,8 @@ Code
 * Unify spec_component and garnish objects
 * Pull parent calculation out of drink GETing? Should only need for index.
 * Prevent empty []'s from getting stored in the database
+* Import tree should drop index
+* Cocktail API model - set required fields.
 
 * Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
@@ -19,9 +21,7 @@ API Functions
 
 Data Model
 ----------
-* Citation has notes?
 * Rip out status
-* Convert author to authors and enforce list
 * Collections (based on book, bar, something)
 * Actually do tags
 
