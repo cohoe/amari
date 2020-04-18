@@ -6,11 +6,8 @@ Code
 * Build crazy complex cocktail model
 * Consider replacing "components" with "ingredients" and figuring out a way to keep them all straight.
 * Move ingredient validator code from model to dedicated validator framework
-* Ensure validate happens before insert into database or index
-* Import recipes needs to invalidate cache like ingredients does
 * auto-generate instructions?
 * Tests
-* Move database connection config to the Config service.
 
 API Functions
 -------------
