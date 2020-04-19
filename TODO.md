@@ -28,6 +28,7 @@ Data Model
 * Rip out status
 * Collections (based on book, bar, something)
 * Actually do tags
+* Servings
 
 Future Ideas
 ------------
