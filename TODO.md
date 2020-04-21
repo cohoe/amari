@@ -4,8 +4,6 @@ ToDo
 Code
 ----
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
-* Deprecate spec_count? Maybe make an Object property instead of an actual data field?
-* Unify spec_component and garnish objects
 * Pull parent calculation out of drink GETing? Should only need for index.
 * Prevent empty []'s from getting stored in the database
 * Import tree should drop index
@@ -13,6 +11,7 @@ Code
 * Make API creation actually a thing. (also need ingredients)
 * Refactor import commands to use API endpoints instead.
 * Clean up factory methods.
+* Implement images
 
 * Make proper ElasticSearch index models
 * Move ingredient validator code from model to dedicated validator framework
@@ -21,7 +20,7 @@ Code
 
 API Functions
 -------------
-* "make me something" spin the wheel
+
 
 Data Model
 ----------
@@ -36,3 +35,4 @@ Future Ideas
   components. Split things, maybe some ML to make suggestions?
 * Purchase tracker. Log your purchases to generate an average cost. Maybe
   also have a price logger? Focus on the first one.
+* "make me something" spin the wheel
