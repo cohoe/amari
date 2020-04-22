@@ -4,7 +4,6 @@ ToDo
 Code
 ----
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
-* Pull parent calculation out of drink GETing? Should only need for index.
 * Prevent empty []'s from getting stored in the database
 * Import tree should drop index
 * Cocktail API model - set required fields.
