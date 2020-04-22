@@ -5,7 +5,6 @@ Code
 ----
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Prevent empty []'s from getting stored in the database
-* Import tree should drop index
 * Cocktail API model - set required fields.
 * Make API creation actually a thing. (also need ingredients)
 * Refactor import commands to use API endpoints instead.
