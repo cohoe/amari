@@ -31,3 +31,4 @@ Future Ideas
 * Purchase tracker. Log your purchases to generate an average cost. Maybe
   also have a price logger? Focus on the first one.
 * "make me something" spin the wheel
+* Recommend drinks to friends. Fuck is this turning into a social thing?
