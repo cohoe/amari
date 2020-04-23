@@ -9,7 +9,6 @@ Code
 * Make API creation actually a thing. (also need ingredients)
 * Refactor import commands to use API endpoints instead.
 * Clean up factory methods.
-* Implement images
 
 * Make proper ElasticSearch index models
 * Move ingredient validator code from model to dedicated validator framework
