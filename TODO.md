@@ -3,28 +3,27 @@ ToDo
 
 Code
 ----
-* DELETE doesn't work. Likely need refactor on the entire database session management.
-* POST didn't work either. SUspect same thing, it's getting lost in the session.
+* Build a container image (or at least a Dockerfile)
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Cocktail API model - set required fields.
-* Make API creation actually a thing. (also need ingredients)
+* Create ingredients by API
 * Refactor import commands to use API endpoints instead.
 * Clean up factory methods.
 
 * Make proper ElasticSearch index models
-* Move ingredient validator code from model to dedicated validator framework
 * auto-generate instructions?
 * Tests 
 
 API Functions
 -------------
-
+* cache /cocktails and eliminate index
 
 Data Model
 ----------
 * Collections (based on book, bar, something)
 * Actually do tags
 * Servings
+* "original" specs should not exist.
 
 Future Ideas
 ------------
