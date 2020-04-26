@@ -3,6 +3,8 @@ ToDo
 
 Code
 ----
+* DELETE doesn't work. Likely need refactor on the entire database session management.
+* POST didn't work either. SUspect same thing, it's getting lost in the session.
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Cocktail API model - set required fields.
 * Make API creation actually a thing. (also need ingredients)
