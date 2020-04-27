@@ -2,6 +2,7 @@
   <dictionary name="grant">
     <words>
       <w>elasticsearch</w>
+      <w>keyerror</w>
       <w>tablename</w>
     </words>
   </dictionary>
