@@ -139,6 +139,7 @@
     </table>
     <table id="25" parent="15" name="ingredients">
       <ObjectId>16393</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>489</StateNumber>
     </table>
