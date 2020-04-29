@@ -6,7 +6,6 @@ Code
 * Build a container image (or at least a Dockerfile)
 * Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Cocktail API model - set required fields.
-* Create ingredients by API
 * Refactor import commands to use API endpoints instead.
 * Clean up factory methods.
 
@@ -16,7 +15,6 @@ Code
 
 API Functions
 -------------
-* cache /cocktails and eliminate index
 
 Data Model
 ----------
