@@ -10,7 +10,6 @@ High-Level Features
 
 Code
 ----
-* Kibana SELinux Freaks Out on up.
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
 
