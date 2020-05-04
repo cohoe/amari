@@ -13,7 +13,6 @@ Code
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
 
-* Cocktail API model - set required fields.
 * Refactor import commands to use API endpoints instead.
 * switch POST ingredients to single not list.
 
