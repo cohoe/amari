@@ -10,10 +10,10 @@ High-Level Features
 
 Code
 ----
+* BaseImporter pgconn doesn't work when fresh
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
 
-* Implement some nesting of serializers to cover slug/displayname. Generic module for those? include Text there too.
 * Cocktail API model - set required fields.
 * Refactor import commands to use API endpoints instead.
 * switch POST ingredients to single not list.
