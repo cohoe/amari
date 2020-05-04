@@ -16,7 +16,6 @@ Code
 * Cocktail API model - set required fields.
 * Refactor import commands to use API endpoints instead.
 * switch POST ingredients to single not list.
-* Author and Timestamp to Text()
 
 #### Low-Priority
 * Clean up factory methods.
