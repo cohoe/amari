@@ -12,7 +12,7 @@ Code
 ----
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
-
+* Unify Logging
 * Refactor import commands to use API endpoints instead.
 * switch POST ingredients to single not list.
 
@@ -27,7 +27,7 @@ API Functions
 
 Data Model
 ----------
-* Parse Upneat scrapes
+* Parse Upneat scrapes (blehhhhh)
 * Collections (based on book, bar, something)
 * Actually do tags
 * "original" specs should not exist.
@@ -44,3 +44,4 @@ Future Ideas
   flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
 * Recommend drinks to friends. Fuck is this turning into a social thing?
 * Package and Deploy to CSH Openshift (Operator???)
+* Cache invalidation via queue, Cassandra-esque read-repair for update?
