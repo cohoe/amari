@@ -10,7 +10,7 @@ High-Level Features
 
 Code
 ----
-* BaseImporter pgconn doesn't work when fresh
+* Kibana SELinux Freaks Out on up.
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
 
