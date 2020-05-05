@@ -25,3 +25,7 @@ Backend CLI
 
 ### Brazil
 AWS (deprecated)
+
+Other Sites
+-----------
+* https://www.cocktailbuilder.com/
