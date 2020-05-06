@@ -12,8 +12,6 @@ Code
 ----
 * MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
-* Unify Logging
-* Refactor import commands to use API endpoints instead.
 
 #### Low-Priority
 * Clean up factory methods.
