@@ -10,7 +10,6 @@ High-Level Features
 
 Code
 ----
-* MixologyTech Connector and recipe scraper
 * Build a container image (or at least a Dockerfile) - maybe s2i?
 
 #### Low-Priority
@@ -24,7 +23,7 @@ API Functions
 
 Data Model
 ----------
-* Parse Upneat scrapes (blehhhhh)
+* Parse Upneat and MixTech scrapes (blehhhhh)
 * Collections (based on book, bar, something)
 * Actually do tags
 * "original" specs should not exist.
