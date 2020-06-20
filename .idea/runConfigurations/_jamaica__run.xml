@@ -5,6 +5,7 @@
     <option name="PARENT_ENVS" value="true" />
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="ZOOKEEPER_HOSTS" value="localhost:2181" />
     </envs>
     <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/amari/bin/python" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jamaica/jamaica" />
