@@ -4,9 +4,13 @@ ToDo
 High-Level Features
 -------------------
 * Collections (browse by "source")
+* POST never runs the Validator code
+* DELETE doesnt drop from index
 * User Identity
-  * Drink Lists (also do flagged as a list)
   * Inventory
+* Drink Lists
+  * Indexing
+  * Searching by cocktail (appears in X lists)
 
 Code
 ----
