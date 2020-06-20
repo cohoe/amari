@@ -4,7 +4,6 @@ ToDo
 High-Level Features
 -------------------
 * Collections (browse by "source")
-* POST never runs the Validator code
 * User Identity
   * Inventory
 
