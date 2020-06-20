@@ -5,7 +5,6 @@ High-Level Features
 -------------------
 * Collections (browse by "source")
 * POST never runs the Validator code
-* DELETE doesnt drop from index
 * User Identity
   * Inventory
 
