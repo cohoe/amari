@@ -8,9 +8,6 @@ High-Level Features
 * DELETE doesnt drop from index
 * User Identity
   * Inventory
-* Drink Lists
-  * Indexing
-  * Searching by cocktail (appears in X lists)
 
 Code
 ----
