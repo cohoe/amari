@@ -1,28 +1,25 @@
 ToDo
 ====
 
-Deployment
-----------
-* Kibana password
-* Operator or at least persistent configs
-* Finish London
-
 High-Level Features
 -------------------
 * Collections (browse by "source")
 * User Identity
-  * Inventory
-* Change env var names because Kubernetes steps on us
-
-Code
-----
-* Build a container image (or at least a Dockerfile) - maybe s2i?
+* Inventory
 
 #### Low-Priority
 * Clean up factory methods.
 * Make proper ElasticSearch index models
 * auto-generate instructions?
 * Tests 
+* See if there is a way to make Redis/ElasticSearch come from Registry
+
+Deployment
+----------
+* Kibana password
+* Operator or at least persistent configs
+* Different ConfigMaps for Init vs Jamaica runtime
+* Scale various components
 
 API Functions
 -------------
