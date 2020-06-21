@@ -5,9 +5,10 @@
     <option name="PARENT_ENVS" value="true" />
     <envs>
       <env name="PYTHONUNBUFFERED" value="1" />
-      <env name="DATABASE_NAME" value="amari" />
-      <env name="DATABASE_PASSWORD" value="s3krAt" />
-      <env name="DATABASE_USERNAME" value="postgres" />
+      <env name="AMARI_DATABASE_NAME" value="amari" />
+      <env name="AMARI_DATABASE_PASSWORD" value="s3krAt" />
+      <env name="AMARI_DATABASE_USERNAME" value="postgres" />
+      <env name="AMARI_DATABASE_HOST" value="localhost" />
     </envs>
     <option name="SDK_HOME" value="$USER_HOME$/.virtualenvs/amari/bin/python" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/england" />
