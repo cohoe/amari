@@ -6,6 +6,7 @@ High-Level Features
 * Collections (browse by "source")
 * User Identity
   * Inventory
+* Change env var names because Kubernetes steps on us
 
 Code
 ----
