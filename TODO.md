@@ -1,6 +1,12 @@
 ToDo
 ====
 
+Deployment
+----------
+* Kibana password
+* Operator or at least persistent configs
+* Finish London
+
 High-Level Features
 -------------------
 * Collections (browse by "source")
