@@ -21,6 +21,12 @@ Deployment
 * Different ConfigMaps for Init vs Jamaica runtime
 * Scale various components
 
+Tortuga Data
+------------
+* Some TODOs in there about the structure (mezcal, agricole, etc)
+* aged jamaica rum 
+* is recipe slug actually being used
+
 API Functions
 -------------
 
