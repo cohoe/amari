@@ -13,6 +13,7 @@ High-Level Features
 * auto-generate instructions?
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
+* Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 
 Deployment
 ----------
