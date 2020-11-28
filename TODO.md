@@ -6,6 +6,7 @@ High-Level Features
 * Collections (browse by "source")
 * User Identity
 * Inventory
+* Fix Ingredient Search
 
 #### Low-Priority
 * Clean up factory methods.
