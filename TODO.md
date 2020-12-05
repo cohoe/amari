@@ -6,6 +6,7 @@ High-Level Features
 * Collections (browse by "source")
 * User Identity
 * Inventory
+* Unify slug and ID to a single field. CHeck on inventory.
 
 #### Low-Priority
 * Clean up factory methods.
