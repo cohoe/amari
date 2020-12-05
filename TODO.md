@@ -6,11 +6,6 @@ High-Level Features
 * Collections (browse by "source")
 * User Identity
 * Inventory
-* Finish re-indexing endpoint
-* Unify all object contruction via the factory
-  * model = thing & c = model_to_obj() calls
-  * Mostly affects deletes.
-  * Remove all calls to models in Jamaica?
 * Remove valueerror -> keyerrors
 
 #### Low-Priority
