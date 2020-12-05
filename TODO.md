@@ -6,7 +6,6 @@ High-Level Features
 * Collections (browse by "source")
 * User Identity
 * Inventory
-* Remove valueerror -> keyerrors
 
 #### Low-Priority
 * Clean up factory methods.
