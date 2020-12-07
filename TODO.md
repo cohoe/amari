@@ -7,6 +7,14 @@ High-Level Features
 * User Identity
 * Inventory
 * Unify slug and ID to a single field. CHeck on inventory.
+* Ingredient name search doesn't work on slugs (search name=mount-gay)
+* create inventory validator
+  * ingredient exists
+  * dedup
+* add simple inventory count attribute (inventory/stats endpoint?)
+* some way for custom/unknown bottles to be tracked
+* ingredients might need the same search tweaks as cocktails (barr -> barrel)
+* Add endpoint to compare a single recipe, generate a comparison object?
 
 #### Low-Priority
 * Clean up factory methods.
@@ -28,6 +36,8 @@ Tortuga Data
 * Some TODOs in there about the structure (mezcal, agricole, etc)
 * aged jamaica rum 
 * is recipe slug actually being used
+* make indexes query based on attributes
+* ingredient origin attributes?
 
 API Functions
 -------------
@@ -40,6 +50,8 @@ Data Model
 * "original" specs should not exist.
 * Ingredient Descriptions - semi auto-generate.
 * Servings (single, multi, batch)
+* Pisco / Mezcal / Calvados categories
+
 
 Future Ideas
 ------------
