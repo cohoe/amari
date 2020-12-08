@@ -10,11 +10,11 @@ High-Level Features
 * Ingredient name search doesn't work on slugs (search name=mount-gay)
 * create inventory validator
   * ingredient exists
-  * dedup
+  * dedup (also for implied)
 * add simple inventory count attribute (inventory/stats endpoint?)
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
-* Add endpoint to compare a single recipe, generate a comparison object?
+* Closest relative for summary
 
 #### Low-Priority
 * Clean up factory methods.
@@ -38,6 +38,7 @@ Tortuga Data
 * is recipe slug actually being used
 * make indexes query based on attributes
 * ingredient origin attributes?
+* elderflower, flower, violette are not a thing
 
 API Functions
 -------------
