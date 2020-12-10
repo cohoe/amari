@@ -14,7 +14,7 @@ High-Level Features
 * add simple inventory count attribute (inventory/stats endpoint?)
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
-* Closest relative for summary
+* add subs for direct
 
 #### Low-Priority
 * Clean up factory methods.
