@@ -17,6 +17,7 @@ High-Level Features
 * Add API endpoints for
   * inventory/{id}/substitute/{slug} GET
   * inventory/{id}/item/{slug} GET DELETE
+* inventory retrieve for all types needs fixed
 
 #### Low-Priority
 * Clean up factory methods.
