@@ -10,7 +10,6 @@ High-Level Features
 * Ingredient name search doesn't work on slugs (search name=mount-gay)
 * create inventory validator
   * ingredient exists
-  * dedup (also for implied)
 * add simple inventory count attribute (inventory/stats endpoint?)
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
