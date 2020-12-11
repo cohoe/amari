@@ -42,6 +42,8 @@ Tortuga Data
 * ingredient origin attributes?
 * elderflower, flower, violette are not a thing
 * bitters needs more organization. bitters -> citrus -> orange
+* smith cross jamaican overproof something
+* syrups too
 
 API Functions
 -------------
