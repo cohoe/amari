@@ -14,6 +14,9 @@ High-Level Features
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
 * add subs for direct
+* Add API endpoints for
+  * inventory/{id}/substitute/{slug} GET
+  * inventory/{id}/item/{slug} GET DELETE
 
 #### Low-Priority
 * Clean up factory methods.
@@ -38,6 +41,7 @@ Tortuga Data
 * make indexes query based on attributes
 * ingredient origin attributes?
 * elderflower, flower, violette are not a thing
+* bitters needs more organization. bitters -> citrus -> orange
 
 API Functions
 -------------
