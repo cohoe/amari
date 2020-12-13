@@ -5,7 +5,6 @@ High-Level Features
 -------------------
 * Collections (browse by "source")
 * User Identity
-* Inventory
 * Unify slug and ID to a single field. CHeck on inventory.
 * Ingredient name search doesn't work on slugs (search name=mount-gay)
 * create inventory validator
@@ -13,10 +12,6 @@ High-Level Features
 * add simple inventory count attribute (inventory/stats endpoint?)
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
-* add subs for direct
-* Add API endpoints for
-  * inventory/{id}/substitute/{slug} GET
-  * inventory/{id}/item/{slug} GET DELETE
 
 #### Low-Priority
 * Clean up factory methods.
