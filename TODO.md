@@ -12,6 +12,16 @@ High-Level Features
 * add simple inventory count attribute (inventory/stats endpoint?)
 * some way for custom/unknown bottles to be tracked
 * ingredients might need the same search tweaks as cocktails (barr -> barrel)
+* Add endpoints:
+  * /inventory/{id}/recipes?missing=1+
+  * /inventory/{id}/recipes?components (and other cocktail search params.
+    Basically just pass them through to CocktailSearch and filter based
+    on inventory parameters.
+  * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
+* resolve?recipe is illogical. recipe = cocktail + spec.
+* Rebrand Menu to Lists, make ID driven
+* Notebook (all Notes, similar to Biblio)
+
 
 #### Low-Priority
 * Clean up factory methods.
@@ -41,6 +51,7 @@ Tortuga Data
 * bitters needs more organization. bitters -> citrus -> orange
 * smith cross jamaican overproof something
 * syrups too
+* Cocktail vs Punch vs Shot???
 
 API Functions
 -------------
