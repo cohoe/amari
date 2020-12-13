@@ -1,27 +1,35 @@
 ToDo
 ====
 
+Issues
+------
+* direct substitutions not including children (orange bitters)
+  * resolve martinez?rail-stop should be smart enough to know that I've marked
+    both orange-bitters and regans-orange-bitters as explicit.
+  * regans subs are showing up as [] despite having orange-bitters
+    in inventory
+* Rebrand Menu to Lists, make ID driven
+* resolve?recipe is illogical. recipe = cocktail + spec.
+* ingredient search needs tweaks as cocktails (barr -> barrel)
+* Ingredient name search doesn't work on slugs (search name=mount-gay)
+
 High-Level Features
 -------------------
 * Collections (browse by "source")
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
-* Ingredient name search doesn't work on slugs (search name=mount-gay)
-* create inventory validator
-  * ingredient exists
-* add simple inventory count attribute (inventory/stats endpoint?)
-* some way for custom/unknown bottles to be tracked
-* ingredients might need the same search tweaks as cocktails (barr -> barrel)
-* Add endpoints:
-  * /inventory/{id}/recipes?missing=1+
-  * /inventory/{id}/recipes?components (and other cocktail search params.
-    Basically just pass them through to CocktailSearch and filter based
-    on inventory parameters.
-  * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
-* resolve?recipe is illogical. recipe = cocktail + spec.
-* Rebrand Menu to Lists, make ID driven
+* InventoryValidator
+* some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
 
+API Functions
+-------------
+* /inventory/{id}/recipes?missing=1+
+* /inventory/{id}/recipes?components (and other cocktail search params.
+  Basically just pass them through to CocktailSearch and filter based
+  on inventory parameters.
+* /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
+* /inventory/{id}/statistics (counts, recipes-available)
 
 #### Low-Priority
 * Clean up factory methods.
@@ -48,13 +56,10 @@ Tortuga Data
 * make indexes query based on attributes
 * ingredient origin attributes?
 * elderflower, flower, violette are not a thing
-* bitters needs more organization. bitters -> citrus -> orange
 * smith cross jamaican overproof something
 * syrups too
 * Cocktail vs Punch vs Shot???
-
-API Functions
--------------
+* Pisco / Mezcal / Calvados categories
 
 Data Model
 ----------
@@ -64,8 +69,6 @@ Data Model
 * "original" specs should not exist.
 * Ingredient Descriptions - semi auto-generate.
 * Servings (single, multi, batch)
-* Pisco / Mezcal / Calvados categories
-
 
 Future Ideas
 ------------
