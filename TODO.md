@@ -3,11 +3,6 @@ ToDo
 
 Issues
 ------
-* direct substitutions not including children (orange bitters)
-  * resolve martinez?rail-stop should be smart enough to know that I've marked
-    both orange-bitters and regans-orange-bitters as explicit.
-  * regans subs are showing up as [] despite having orange-bitters
-    in inventory
 * Rebrand Menu to Lists, make ID driven
 * resolve?recipe is illogical. recipe = cocktail + spec.
 * ingredient search needs tweaks as cocktails (barr -> barrel)
@@ -60,6 +55,7 @@ Tortuga Data
 * syrups too
 * Cocktail vs Punch vs Shot???
 * Pisco / Mezcal / Calvados categories
+* vermouth
 
 Data Model
 ----------
