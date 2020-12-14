@@ -3,6 +3,11 @@ ToDo
 
 Issues
 ------
+* Is having COUNT(cocktails)*COUNT(inventories) really a good idea?
+* search by all parents and/or display name. Basically, expand component
+  to full ingredient data.
+* unify resolve under inventory recipes endpoint.
+* support int for parameters (fix cocktail component_count search)
 
 High-Level Features
 -------------------
@@ -31,6 +36,7 @@ API Functions
 * See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * Rename all package files to be sane names (see Caches)
+  NO. This is a bad idea. Too much possibility of overlap.
 * Rename services to ThingService? (LogService, RegistryService)
 
 Deployment
