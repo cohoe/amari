@@ -3,10 +3,6 @@ ToDo
 
 Issues
 ------
-* Rebrand Menu to Lists, make ID driven
-* resolve?recipe is illogical. recipe = cocktail + spec.
-* ingredient search needs tweaks as cocktails (barr -> barrel)
-* Ingredient name search doesn't work on slugs (search name=mount-gay)
 
 High-Level Features
 -------------------
@@ -16,6 +12,7 @@ High-Level Features
 * InventoryValidator
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
+* Rebrand Menu to Lists, make ID driven
 
 API Functions
 -------------
