@@ -3,11 +3,11 @@ ToDo
 
 Issues
 ------
-* Is having COUNT(cocktails)*COUNT(inventories) really a good idea?
-* search by all parents and/or display name. Basically, expand component
-  to full ingredient data.
-* unify resolve under inventory recipes endpoint.
-* support int for parameters (fix cocktail component_count search)
+* Cleanup inventory endpoints
+  * unify resolve under inventory recipes endpoint.
+  * shard the inventories/recipes endpoints into more manageable classes.
+* Alpha searching for either cocktails or inventory recipes doesn't seem to work.
+* alpha and counts and new stuff isn't in the /recipes endpoint.
 
 High-Level Features
 -------------------
@@ -21,10 +21,6 @@ High-Level Features
 
 API Functions
 -------------
-* /inventory/{id}/recipes?missing=1+
-* /inventory/{id}/recipes?components (and other cocktail search params.
-  Basically just pass them through to CocktailSearch and filter based
-  on inventory parameters.
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
 * /inventory/{id}/statistics (counts, recipes-available)
 
