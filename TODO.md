@@ -9,7 +9,6 @@ Issues
 * Alpha searching for either cocktails or inventory recipes doesn't seem to work.
 * alpha and counts and new stuff isn't in the /recipes endpoint.
 * fail validation on crappy glassware
-* Search based on garnish (boolean?)
 * Enhance importers
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
