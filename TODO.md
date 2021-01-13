@@ -6,12 +6,12 @@ Issues
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* Alpha searching for either cocktails or inventory recipes doesn't seem to work.
 * alpha and counts and new stuff isn't in the /recipes endpoint.
 * fail validation on crappy glassware
 * Enhance importers
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
+* Fix rebuilding of inventoryspecresolution entries.
 
 High-Level Features
 -------------------
