@@ -35,9 +35,13 @@ API Functions
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
-* Rename all package files to be sane names (see Caches)
-  NO. This is a bad idea. Too much possibility of overlap.
-* Rename services to ThingService? (LogService, RegistryService)
+* Code naming consistency
+  * barbados.things.thing -> class ThingThings
+  * Be specific in the class name to avoid possibility of overlap.
+  * Rename services to ThingService (LogService, RegistryService)
+  * Remove relative imports
+* Move glassware and text to objects.
+* Add base object - all barbados.objects must be serializable.
 
 Deployment
 ----------
