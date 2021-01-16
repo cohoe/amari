@@ -35,12 +35,8 @@ API Functions
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
-* Code naming consistency
-  * barbados.things.thing -> class ThingThings
-  * Be specific in the class name to avoid possibility of overlap.
-  * Remove relative imports
-* Move glassware and text to objects.
-* Add base object - all barbados.objects must be serializable.
+* Can ObjectSerializer be removed from barbados.objects and use the serializer param instead?
+* More BarbadosObject for objects
 
 Deployment
 ----------
