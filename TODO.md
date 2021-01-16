@@ -38,7 +38,6 @@ API Functions
 * Code naming consistency
   * barbados.things.thing -> class ThingThings
   * Be specific in the class name to avoid possibility of overlap.
-  * Rename services to ThingService (LogService, RegistryService)
   * Remove relative imports
 * Move glassware and text to objects.
 * Add base object - all barbados.objects must be serializable.
