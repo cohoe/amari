@@ -1,8 +1,6 @@
 ToDo
 ====
 
-Can I re-init?
-
 Issues
 ------
 * Cleanup inventory endpoints
@@ -13,7 +11,6 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
 * Fix rebuilding of inventoryspecresolution entries.
-* Init needs to set up all appropriate settings.
 
 High-Level Features
 -------------------
