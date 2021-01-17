@@ -12,7 +12,7 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
 * Fix rebuilding of inventoryspecresolution entries.
-* Make redis come from the registry, and add to init process.
+* Init needs to set up all appropriate settings.
 
 High-Level Features
 -------------------
@@ -38,7 +38,6 @@ API Functions
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * Can ObjectSerializer be removed from barbados.objects and use the serializer param instead?
 * More BarbadosObject for objects
-* Implement reconnect for services with connections?
 
 Deployment
 ----------
