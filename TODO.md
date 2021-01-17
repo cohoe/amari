@@ -11,6 +11,7 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
 * Fix rebuilding of inventoryspecresolution entries.
+* add highlighted to drinklist items
 
 High-Level Features
 -------------------
@@ -20,7 +21,6 @@ High-Level Features
 * InventoryValidator
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
-* Rebrand Menu to Lists, make ID driven
 
 API Functions
 -------------
@@ -29,8 +29,10 @@ API Functions
 * /construction/{slug}
 
 #### Low-Priority
-* Clean up factory methods.
+* Factory Cleanup
+  * Refactor the old factories to the new (inventory) style
   * See about using ObjectIndexer in the obj_to_index() calls.
+  * Move "all" factories under factories. This includes indexes, indexers, etc.
 * auto-generate instructions?
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
