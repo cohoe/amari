@@ -31,7 +31,6 @@ API Functions
 
 #### Low-Priority
 * Clean up factory methods.
-* Make proper ElasticSearch index models
 * auto-generate instructions?
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
