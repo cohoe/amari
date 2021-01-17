@@ -1,6 +1,8 @@
 ToDo
 ====
 
+Can I re-init?
+
 Issues
 ------
 * Cleanup inventory endpoints
