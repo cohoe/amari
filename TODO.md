@@ -6,7 +6,6 @@ Issues
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* alpha and counts and new stuff isn't in the /recipes endpoint.
 * fail validation on crappy glassware
 * Enhance importers
   * --delete needs to be specific and not the entire thing, unless that swhat you want
@@ -28,9 +27,11 @@ API Functions
 -------------
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
 * /inventory/{id}/statistics (counts, recipes-available)
+* /construction/{slug}
 
 #### Low-Priority
 * Clean up factory methods.
+  * See about using ObjectIndexer in the obj_to_index() calls.
 * auto-generate instructions?
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
