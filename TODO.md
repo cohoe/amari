@@ -49,7 +49,7 @@ Deployment
 
 Tortuga Data
 ------------
-* Some TODOs in there about the structure (mezcal, agricole, etc)
+* Some TODOs in there about the structure (agricole, etc)
 * aged jamaica rum 
 * is recipe slug actually being used
 * make indexes query based on attributes
@@ -58,8 +58,6 @@ Tortuga Data
 * smith cross jamaican overproof something
 * syrups too
 * Cocktail vs Punch vs Shot???
-* Pisco / Mezcal / Calvados categories
-* vermouth
 
 Data Model
 ----------
