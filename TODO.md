@@ -15,6 +15,16 @@ Issues
 
 High-Level Features
 -------------------
+* How to implement "aged jamaican rum"
+  Perhaps indexes should query based on metadata
+  attributes. Could make an origin or country or
+  something to use.
+  Current indexes:
+    * white-rum
+    * jamaican-rum
+    * demerara-rum
+    * navy-strength-jamaican-rum
+    * joven/reposado/anejo mezcal
 * Collections (browse by "source")
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
@@ -49,11 +59,7 @@ Deployment
 
 Tortuga Data
 ------------
-* Some TODOs in there about the structure (agricole, etc)
-* aged jamaica rum 
-* is recipe slug actually being used
-* make indexes query based on attributes
-* ingredient origin attributes?
+* Can families nest under other families? Test tree creation.
 * elderflower, flower, violette are not a thing
 * smith cross jamaican overproof something
 * syrups too
