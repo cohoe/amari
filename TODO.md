@@ -6,10 +6,9 @@ Issues
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* fail validation on crappy glassware
 * Enhance importers
   * --delete needs to be specific and not the entire thing, unless that swhat you want
-  * Counts of adds, duplicates, etc
+  * Counts of adds, duplicates, etc (for ingredients)
 * Fix rebuilding of inventoryspecresolution entries.
 
 High-Level Features
