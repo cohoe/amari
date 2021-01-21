@@ -14,7 +14,6 @@ Issues
 High-Level Features
 -------------------
 * Tree enhancements (see below)
-* Collections (browse by "source")
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
 * InventoryValidator
