@@ -11,7 +11,6 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc
 * Fix rebuilding of inventoryspecresolution entries.
-* add highlighted to drinklist items
 
 High-Level Features
 -------------------
