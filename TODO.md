@@ -13,16 +13,7 @@ Issues
 
 High-Level Features
 -------------------
-* How to implement "aged jamaican rum"
-  Perhaps indexes should query based on metadata
-  attributes. Could make an origin or country or
-  something to use.
-  Current indexes:
-    * white-rum
-    * jamaican-rum
-    * demerara-rum
-    * navy-strength-jamaican-rum
-    * joven/reposado/anejo mezcal
+* Tree enhancements (see below)
 * Collections (browse by "source")
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
@@ -48,29 +39,27 @@ API Functions
 * Can ObjectSerializer be removed from barbados.objects and use the serializer param instead?
 * More BarbadosObject for objects
 
-Deployment
-----------
-* Kibana password
-* Operator or at least persistent configs
-* Different ConfigMaps for Init vs Jamaica runtime
-* Scale various components
-
 Tortuga Data
 ------------
 * Can families nest under other families? Test tree creation.
+* How to implement "aged jamaican rum"
+  Perhaps indexes should query based on metadata
+  attributes. Could make an origin or country or
+  something to use.
+  Current indexes:
+  * white-rum
+  * jamaican-rum
+  * demerara-rum
+  * navy-strength-jamaican-rum
+  * joven/reposado/anejo mezcal
 * elderflower, flower, violette are not a thing
 * smith cross jamaican overproof something
-* syrups too
-* Cocktail vs Punch vs Shot???
-
-Data Model
-----------
-* Parse Upneat and MixTech scrapes (blehhhhh)
-* Collections (based on book, bar, something)
+* syrups too (what did this mean????)
 * Actually do tags
-* "original" specs should not exist.
 * Ingredient Descriptions - semi auto-generate.
 * Servings (single, multi, batch)
+* Parse Upneat and MixTech scrapes (blehhhhh)
+* "original" specs should not exist.
 
 Future Ideas
 ------------
@@ -81,5 +70,4 @@ Future Ideas
 * "make me something" spin the wheel. Dice + Coin? Roll a base and 
   flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
 * Recommend drinks to friends. Fuck is this turning into a social thing?
-* Package and Deploy to CSH Openshift (Operator???)
 * Cache invalidation via queue, Cassandra-esque read-repair for update?
