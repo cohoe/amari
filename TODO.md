@@ -10,6 +10,8 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc (for ingredients)
 * Fix rebuilding of inventoryspecresolution entries.
+* Add garnish, citation* to the resolution
+* Search name='oaxaca-old-fashioned' fails (dashes?)
 
 High-Level Features
 -------------------
@@ -22,6 +24,7 @@ High-Level Features
 
 API Functions
 -------------
+* /inventory/{id}/recipes/{id}: Specific recipe resolution
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
 * /inventory/{id}/statistics (counts, recipes-available)
 * /construction/{slug}
