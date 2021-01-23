@@ -1,6 +1,12 @@
 ToDo
 ====
 
+* Implies needs to include families because families can be in recipes
+* Imply up to the first family parent
+* Alternatively families are ineligible for use in recipes <-- no because a gazillion things say gin
+* If that happens then the families need to move a level lower. Otherwise bourbon
+  implies grain-spirit which includes aaaaa lotttttt
+
 Issues
 ------
 * Cleanup inventory endpoints
