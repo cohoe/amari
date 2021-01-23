@@ -13,6 +13,11 @@ ToDo
   * navy-strength-jamaican-rum
   * joven/reposado/anejo mezcal
 * smith cross jamaican overproof something
+* Indexes now support query condiutions. Statically set in the Ingredient
+  object for the moment. Need to provide the ability to store these in
+  Tortuga and POST them and all that good stuff. Start testing them on
+  a couple of the indexes above.
+  Need to figure out explicit include/exclude.
 
 Issues
 ------
