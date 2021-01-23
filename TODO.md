@@ -6,6 +6,11 @@ ToDo
 * Alternatively families are ineligible for use in recipes <-- no because a gazillion things say gin
 * If that happens then the families need to move a level lower. Otherwise bourbon
   implies grain-spirit which includes aaaaa lotttttt
+* Families can inherit from other families. The lowest level fam
+  is included in the implies but thats where processing stops.
+  Probably have to go back through resolution to account for this.
+  Families should not imply their siblings nor should products
+  imply for their families siblings.
 
 Issues
 ------
@@ -18,6 +23,8 @@ Issues
 * Fix rebuilding of inventoryspecresolution entries.
 * Add garnish, citation* to the resolution
 * Search name='oaxaca-old-fashioned' fails (dashes?)
+* Convert tree data to an object rather than dictionary.
+  Helps with some Treelib components
 
 High-Level Features
 -------------------
