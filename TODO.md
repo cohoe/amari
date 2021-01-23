@@ -1,17 +1,6 @@
 ToDo
 ====
 
-* Implies needs to include families because families can be in recipes
-* Imply up to the first family parent
-* Alternatively families are ineligible for use in recipes <-- no because a gazillion things say gin
-* If that happens then the families need to move a level lower. Otherwise bourbon
-  implies grain-spirit which includes aaaaa lotttttt
-* Families can inherit from other families. The lowest level fam
-  is included in the implies but thats where processing stops.
-  Probably have to go back through resolution to account for this.
-  Families should not imply their siblings nor should products
-  imply for their families siblings.
-
 Issues
 ------
 * Cleanup inventory endpoints
@@ -56,7 +45,6 @@ API Functions
 
 Tortuga Data
 ------------
-* Can families nest under other families? Test tree creation.
 * How to implement "aged jamaican rum"
   Perhaps indexes should query based on metadata
   attributes. Could make an origin or country or
