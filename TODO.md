@@ -1,6 +1,19 @@
 ToDo
 ====
 
+* Indexes. Combination of explicit elements (include/exclude) + search 
+* How to implement "aged jamaican rum"
+  Perhaps indexes should query based on metadata
+  attributes. Could make an origin or country or
+  something to use.
+  Current indexes:
+  * white-rum
+  * jamaican-rum
+  * demerara-rum
+  * navy-strength-jamaican-rum
+  * joven/reposado/anejo mezcal
+* smith cross jamaican overproof something
+
 Issues
 ------
 * Cleanup inventory endpoints
@@ -45,18 +58,7 @@ API Functions
 
 Tortuga Data
 ------------
-* How to implement "aged jamaican rum"
-  Perhaps indexes should query based on metadata
-  attributes. Could make an origin or country or
-  something to use.
-  Current indexes:
-  * white-rum
-  * jamaican-rum
-  * demerara-rum
-  * navy-strength-jamaican-rum
-  * joven/reposado/anejo mezcal
 * elderflower, flower, violette are not a thing
-* smith cross jamaican overproof something
 * syrups too (what did this mean????)
 * Actually do tags
 * Ingredient Descriptions - semi auto-generate.
