@@ -1,6 +1,11 @@
 ToDo
 ====
 
+* Somewhere I've broken implicit resolution. daiquiri says implicit
+  for lime-juice when I definitely don't have it in the inventory
+  on purpose.
+* indexes should imply their elements.
+
 Issues
 ------
 * Cleanup inventory endpoints
@@ -40,6 +45,7 @@ API Functions
 * See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
+* QueryCondition validator
 
 Tortuga Data
 ------------
