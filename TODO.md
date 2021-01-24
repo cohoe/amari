@@ -58,7 +58,6 @@ API Functions
 * Tests 
 * See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
-* Can ObjectSerializer be removed from barbados.objects and use the serializer param instead?
 * More BarbadosObject for objects
 
 Tortuga Data
