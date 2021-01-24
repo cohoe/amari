@@ -1,24 +1,6 @@
 ToDo
 ====
 
-* Indexes. Combination of explicit elements (include/exclude) + search 
-* How to implement "aged jamaican rum"
-  Perhaps indexes should query based on metadata
-  attributes. Could make an origin or country or
-  something to use.
-  Current indexes:
-  * white-rum
-  * jamaican-rum
-  * demerara-rum
-  * navy-strength-jamaican-rum
-  * joven/reposado/anejo mezcal
-* smith cross jamaican overproof something
-* Indexes now support query condiutions. Statically set in the Ingredient
-  object for the moment. Need to provide the ability to store these in
-  Tortuga and POST them and all that good stuff. Start testing them on
-  a couple of the indexes above.
-  Need to figure out explicit include/exclude.
-
 Issues
 ------
 * Cleanup inventory endpoints
@@ -35,7 +17,6 @@ Issues
 
 High-Level Features
 -------------------
-* Tree enhancements (see below)
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
 * InventoryValidator
