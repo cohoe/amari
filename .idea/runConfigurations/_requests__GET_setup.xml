@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[requests] GET setup" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" activateToolWindowBeforeRun="false" path="$PROJECT_DIR$/scratch/requests.http" index="2" runType="Run single request">
+    <method v="2" />
+  </configuration>
+</component>
