@@ -4,7 +4,8 @@ ToDo
 * Somewhere I've broken implicit resolution. daiquiri says implicit
   for lime-juice when I definitely don't have it in the inventory
   on purpose.
-* indexes should imply their elements.
+* Things contained in an index should imply their index.
+* Ponder index implies more. See notes in the tree function.
 
 Issues
 ------
@@ -49,8 +50,6 @@ API Functions
 
 Tortuga Data
 ------------
-* elderflower, flower, violette are not a thing
-* syrups too (what did this mean????)
 * Actually do tags
 * Ingredient Descriptions - semi auto-generate.
 * Servings (single, multi, batch)
