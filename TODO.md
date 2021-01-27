@@ -3,21 +3,19 @@ ToDo
 * Tree
   * Things contained in an index should imply their index.
   * Ponder index implies more. See notes in the tree function.
+  * Should elements in an index be under the same family?
+  * Add a method to tree to find the family of a node.
 
 Issues
 ------
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* Enhance importers
-  * --delete needs to be specific and not the entire thing, unless that swhat you want
-  * Counts of adds, duplicates, etc (for ingredients)
 * Convert tree data to an object rather than dictionary.
   Helps with some Treelib components
 * Somewhere I've broken implicit resolution. daiquiri says implicit
   for lime-juice when I definitely don't have it in the inventory
   on purpose.
-* Should elements in an index be under the same family?
 
 High-Level Features
 -------------------
@@ -54,6 +52,7 @@ Tortuga Data
 * Parse Upneat and MixTech scrapes (blehhhhh)
 * "original" specs should not exist.
 * More families
+* list(Image(href, text, credit))
 
 Future Ideas
 ------------
