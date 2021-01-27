@@ -1,9 +1,5 @@
 ToDo
 ====
-
-* Somewhere I've broken implicit resolution. daiquiri says implicit
-  for lime-juice when I definitely don't have it in the inventory
-  on purpose.
 * Tree
   * Things contained in an index should imply their index.
   * Ponder index implies more. See notes in the tree function.
@@ -17,10 +13,13 @@ Issues
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc (for ingredients)
 * Fix rebuilding of inventoryspecresolution entries.
-* Add garnish, citation* to the resolution
 * Search name='oaxaca-old-fashioned' fails (dashes?)
 * Convert tree data to an object rather than dictionary.
   Helps with some Treelib components
+* Somewhere I've broken implicit resolution. daiquiri says implicit
+  for lime-juice when I definitely don't have it in the inventory
+  on purpose.
+* Should elements in an index be under the same family?
 
 High-Level Features
 -------------------
