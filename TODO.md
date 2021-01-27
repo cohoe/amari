@@ -7,10 +7,6 @@ ToDo
 * Tree
   * Things contained in an index should imply their index.
   * Ponder index implies more. See notes in the tree function.
-* Database Sessions
-  * Make sure nothing is busted
-  * Add DatabaseService.get_session() as a proxy to the connector.
-  * Make sure all other database sessions are generated this way.
 
 Issues
 ------
