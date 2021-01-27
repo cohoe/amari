@@ -12,8 +12,6 @@ Issues
 * Enhance importers
   * --delete needs to be specific and not the entire thing, unless that swhat you want
   * Counts of adds, duplicates, etc (for ingredients)
-* Fix rebuilding of inventoryspecresolution entries.
-* Search name='oaxaca-old-fashioned' fails (dashes?)
 * Convert tree data to an object rather than dictionary.
   Helps with some Treelib components
 * Somewhere I've broken implicit resolution. daiquiri says implicit
