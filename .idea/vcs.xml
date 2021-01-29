@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/barbados" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/england" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/guyana" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/havana" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jamaica" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/london" vcs="Git" />
