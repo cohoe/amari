@@ -1,8 +1,37 @@
 ---
-- slug: test-index
-  display_name: Test Index
-  parent: aged-rum
+- display_name: Navy-strength Jamaican Rum
+  parent: jamaican-rum
+  slug: navy-strength-jamaican-rum
   kind: index
   elements_include:
-    - lime-juice
-    - el-dorado-12-year-rum
+    - smith-cross-jamaican-rum
+- display_name: 'Smith & Cross Jamaican Rum'
+  parent: lightly-aged-pot-still-rum
+  slug: smith-cross-jamaican-rum
+  kind: product
+#- slug: test-index
+#  display_name: Test Index
+#  parent: aged-rum
+#  kind: index
+#  elements_include:
+#    - blanco-tequila
+#    #- lime-juice
+#    - el-dorado-12-year-rum
+#- display_name: Jamaican Rum
+#  parent: rum
+#  slug: jamaican-rum
+#  kind: index
+#  conditions:
+#    - bin_op: or
+#      field: slug
+#      operator: contains
+#      value: appleton-estate
+#  elements_include:
+#    - smith-cross-jamaican-rum
+#
+#- display_name: Navy-strength Jamaican Rum
+#  parent: jamaican-rum
+#  slug: navy-strength-jamaican-rum
+#  kind: index
+#  elements_include:
+#    - smith-cross-jamaican-rum

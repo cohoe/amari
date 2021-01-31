@@ -1,8 +1,5 @@
 ToDo
 ====
-* Tree
-  * Things contained in an index should imply their index.
-  * Ponder index implies more. See notes in the tree function.
 
 Issues
 ------
