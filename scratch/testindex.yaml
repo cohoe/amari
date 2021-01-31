@@ -1,0 +1,8 @@
+---
+- slug: test-index
+  display_name: Test Index
+  parent: aged-rum
+  kind: index
+  elements_include:
+    - lime-juice
+    - el-dorado-12-year-rum

@@ -3,8 +3,6 @@ ToDo
 * Tree
   * Things contained in an index should imply their index.
   * Ponder index implies more. See notes in the tree function.
-  * Should elements in an index be under the same family?
-  * Add a method to tree to find the family of a node.
 
 Issues
 ------
