@@ -34,7 +34,6 @@ API Functions
   * Move "all" factories under factories. This includes indexes, indexers, etc.
 * auto-generate instructions?
 * Tests 
-* See if there is a way to make Redis/ElasticSearch come from Registry
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
 * QueryCondition validator
