@@ -3,11 +3,12 @@ ToDo
 
 Issues
 ------
+* Convert tree data to an object rather than dictionary.
+  Helps with some Treelib components. What if this was just the Ingredient
+  object itself?!
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* Convert tree data to an object rather than dictionary.
-  Helps with some Treelib components
 * Somewhere I've broken implicit resolution. daiquiri says implicit
   for lime-juice when I definitely don't have it in the inventory
   on purpose.
@@ -27,13 +28,13 @@ API Functions
 * /inventory/{id}/statistics (counts, recipes-available)
 * /construction/{slug}
 
-#### Low-Priority
+Low-Priority
+------------
 * Factory Cleanup
   * Refactor the old factories to the new (inventory) style
   * See about using ObjectIndexer in the obj_to_index() calls.
   * Move "all" factories under factories. This includes indexes, indexers, etc.
 * auto-generate instructions?
-* Tests 
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
 * QueryCondition validator
@@ -58,3 +59,4 @@ Future Ideas
   flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
 * Recommend drinks to friends. Fuck is this turning into a social thing?
 * Cache invalidation via queue, Cassandra-esque read-repair for update?
+* Tests
