@@ -35,7 +35,7 @@ Low-Priority
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
 * QueryCondition validator
-* Validator pattern needs some work. https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
+* Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 
 Tortuga Data
 ------------
