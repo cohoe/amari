@@ -3,9 +3,6 @@ ToDo
 
 Issues
 ------
-* Convert tree data to an object rather than dictionary.
-  Helps with some Treelib components. What if this was just the Ingredient
-  object itself?!
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
@@ -38,6 +35,7 @@ Low-Priority
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
 * QueryCondition validator
+* Validator pattern needs some work. https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 
 Tortuga Data
 ------------
