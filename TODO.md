@@ -3,9 +3,6 @@ ToDo
 
 Issues
 ------
-* Cleanup inventory endpoints
-  * unify resolve under inventory recipes endpoint.
-  * shard the inventories/recipes endpoints into more manageable classes.
 
 High-Level Features
 -------------------
