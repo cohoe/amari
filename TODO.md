@@ -3,6 +3,7 @@ ToDo
 
 Issues
 ------
+* Resolutions need to try lookup from Search first
 
 High-Level Features
 -------------------
