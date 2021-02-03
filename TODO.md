@@ -6,9 +6,6 @@ Issues
 * Cleanup inventory endpoints
   * unify resolve under inventory recipes endpoint.
   * shard the inventories/recipes endpoints into more manageable classes.
-* Somewhere I've broken implicit resolution. daiquiri says implicit
-  for lime-juice when I definitely don't have it in the inventory
-  on purpose.
 
 High-Level Features
 -------------------
