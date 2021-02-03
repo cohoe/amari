@@ -14,7 +14,6 @@ High-Level Features
 
 API Functions
 -------------
-* /inventory/{id}/recipes/{id}: Specific recipe resolution
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
 * /inventory/{id}/statistics (counts, recipes-available)
 * /construction/{slug}
