@@ -10,8 +10,6 @@ Issues
 * SearchService abstraction and cleanup TODOs around exceptions.
 * Cache the inventory/recipes endpoint. This may negate the need to look
   up the searchable version.
-* Calling inventory/recipes barfs on citations. Gotta add proper parsing
-  for that
 
 High-Level Features
 -------------------
