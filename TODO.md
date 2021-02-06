@@ -3,13 +3,9 @@ ToDo
 
 Issues
 ------
-* Resolutions need to try lookup from Search first
 * SpecResultionSummary, Resolution, and all that junk needs better class
   naming. Keep getting confused on what is supposed to go where.
   Components field should maybe be renamed too?
-* SearchService abstraction and cleanup TODOs around exceptions.
-* Cache the inventory/recipes endpoint. This may negate the need to look
-  up the searchable version.
 
 High-Level Features
 -------------------
@@ -22,7 +18,7 @@ High-Level Features
 API Functions
 -------------
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
-* /inventory/{id}/statistics (counts, recipes-available)
+* /inventory/{id}/statistics (counts, recipes-available. aka InventoryReport obj)
 * /construction/{slug}
 
 Low-Priority
