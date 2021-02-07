@@ -3,9 +3,11 @@ ToDo
 
 Issues
 ------
-* SpecResultionSummary, Resolution, and all that junk needs better class
+* SpecResolutionSummary, Resolution, and all that junk needs better class
   naming. Keep getting confused on what is supposed to go where.
   Components field should maybe be renamed too?
+* consider putting resolution summaries in the database. Use search for seargin
+  but generate report and do the list off of the db.
 
 High-Level Features
 -------------------
