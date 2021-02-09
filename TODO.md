@@ -5,6 +5,8 @@ Issues
 ------
 * consider putting resolution summaries in the database. Use search for seargin
   but generate report and do the list off of the db.
+* Yeah this has to get out of ElasticSearch. ES queries are likely way more expensive
+  than database, especially if the DB result object can be cached.
 
 High-Level Features
 -------------------
