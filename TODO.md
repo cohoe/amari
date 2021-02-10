@@ -3,7 +3,8 @@ ToDo
 
 Issues
 ------
-* Split the InventoryRecipesEndpoint and add DELETE support.
+* Add DELETE support to the InventoryRecipesEndpoint.
+  Also don't stash in the DB just to delete it.
 
 High-Level Features
 -------------------
