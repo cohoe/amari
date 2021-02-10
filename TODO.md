@@ -7,7 +7,6 @@ Issues
   but generate report and do the list off of the db.
 * Yeah this has to get out of ElasticSearch. ES queries are likely way more expensive
   than database, especially if the DB result object can be cached.
-* Unify datetime to the text object.
 * How to honor resolution from the database. Generate? Don't?
 
 High-Level Features
