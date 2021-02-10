@@ -7,6 +7,8 @@ Issues
   but generate report and do the list off of the db.
 * Yeah this has to get out of ElasticSearch. ES queries are likely way more expensive
   than database, especially if the DB result object can be cached.
+* Unify datetime to the text object.
+* How to honor resolution from the database. Generate? Don't?
 
 High-Level Features
 -------------------
@@ -15,6 +17,7 @@ High-Level Features
 * InventoryValidator
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
+* Search by arbitrary text (no specific fields)
 
 API Functions
 -------------
@@ -33,6 +36,7 @@ Low-Priority
 * More BarbadosObject for objects
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
+* Can I use SQLAlchemy relationships?
 
 Tortuga Data
 ------------
