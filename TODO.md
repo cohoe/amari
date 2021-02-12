@@ -3,8 +3,6 @@ ToDo
 
 Issues
 ------
-* Add DELETE support to the InventoryRecipesEndpoint.
-  Also don't stash in the DB just to delete it.
 
 High-Level Features
 -------------------
