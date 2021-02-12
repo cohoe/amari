@@ -3,6 +3,10 @@ ToDo
 
 Issues
 ------
+* Need some kind of better exception for when an object cannot be built
+  SpecFactory is using ValidationException. Not sure that's a good thing.
+* Missing construction triggers exception on GET if deleted (example, delete
+  stir then get martinez). Find a way to represent this error at a 500 level.
 
 High-Level Features
 -------------------
@@ -17,7 +21,6 @@ API Functions
 -------------
 * /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
 * /inventory/{id}/statistics (counts, recipes-available. aka InventoryReport obj)
-* /construction/{slug}
 
 Low-Priority
 ------------
