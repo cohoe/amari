@@ -3,7 +3,6 @@ ToDo
 
 Issues
 ------
-* Convert endpoints to remove trailing /'s
 
 High-Level Features
 -------------------
