@@ -4,7 +4,6 @@ ToDo
 Issues
 ------
 * Replace index_id with id. It's only adding confusion.
-* Unify all naming of InventorySpecResolution and RecipeResolution or whatever.
 
 High-Level Features
 -------------------
