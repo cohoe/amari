@@ -3,7 +3,6 @@ ToDo
 
 Issues
 ------
-* Replace index_id with id. It's only adding confusion.
 
 High-Level Features
 -------------------
