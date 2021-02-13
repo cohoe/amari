@@ -11,6 +11,7 @@ High-Level Features
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
 * Search by arbitrary text (no specific fields)
+* Background worker daemon with queuing
 
 API Functions
 -------------
