@@ -12,7 +12,6 @@ High-Level Features
 -------------------
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
-* InventoryValidator
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
 * Search by arbitrary text (no specific fields)
@@ -34,6 +33,7 @@ Low-Priority
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 * Can I use SQLAlchemy relationships?
+* Expand validators
 
 Tortuga Data
 ------------
