@@ -5,6 +5,8 @@ Issues
 ------
 * Replace index_id with id. It's only adding confusion.
 * Inventory indexer.
+* Indexers need to simplify some of their functions. Seems to be a lot of
+  duplication between the base and several of the classes.
 
 High-Level Features
 -------------------
