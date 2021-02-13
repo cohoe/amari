@@ -15,8 +15,10 @@ High-Level Features
 
 API Functions
 -------------
-* /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
-* /inventory/{id}/statistics (counts, recipes-available. aka InventoryReport obj)
+* GET /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
+  Maybe merge this as part of the report below?
+* GET /inventory/{id}/report (counts, recipes-available. aka InventoryReport obj)
+* DELETE /inventory/{id}/recipes
 
 Low-Priority
 ------------
