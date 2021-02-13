@@ -3,6 +3,7 @@ ToDo
 
 Issues
 ------
+* Exceptions
 * Need some kind of better exception for when an object cannot be built
   SpecFactory is using ValidationException. Not sure that's a good thing.
 * Missing construction triggers exception on GET if deleted (example, delete
