@@ -22,10 +22,7 @@ Low-Priority
 ------------
 * Factory Cleanup
   * Refactor the old factories to the new (inventory) style
-  * See about using ObjectIndexer in the obj_to_index() calls.
-  * Move "all" factories under factories. This includes indexes, indexers, etc.
 * auto-generate instructions?
-* Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * More BarbadosObject for objects
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
@@ -53,3 +50,4 @@ Future Ideas
 * Recommend drinks to friends. Fuck is this turning into a social thing?
 * Cache invalidation via queue, Cassandra-esque read-repair for update?
 * Tests
+* Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
