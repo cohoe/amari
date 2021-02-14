@@ -3,6 +3,10 @@ ToDo
 
 Issues
 ------
+* TextFactory
+* Parser library for common data types
+* Rebrand store_obj to insert_obj
+
 
 High-Level Features
 -------------------
@@ -23,6 +27,10 @@ Low-Priority
 ------------
 * Factory Cleanup
   * Refactor the old factories to the new (inventory) style
+  * Combine and re-use common parser functions in BaseFactory.
+    Might need to move these into a seperate object after all
+    if I want to take advantage of factories that call other
+    factories.
 * auto-generate instructions?
 * More BarbadosObject for objects
 * QueryCondition validator
