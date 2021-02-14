@@ -4,8 +4,10 @@ ToDo
 Issues
 ------
 * TextFactory
-* Parser library for common data types
+* Parser library for common data types. Need to work out relationship between
+  factories and parsers for complex objects (ie, ones that need a raw_to_obj()).
 * Rebrand store_obj to insert_obj
+* Resolutions dont seem to be coming from the database anymore
 
 
 High-Level Features
