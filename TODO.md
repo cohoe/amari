@@ -3,9 +3,8 @@ ToDo
 
 Issues
 ------
-* Should an object exist for Recipe? Definitely not stored but perhaps use this
-  as the construct for indexing and other such things?
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
+  Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
 
 High-Level Features
 -------------------
@@ -44,7 +43,6 @@ Tortuga Data
 * Parse Upneat and MixTech scrapes (blehhhhh)
 * "original" specs should not exist.
 * More families
-* Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
 
 Future Ideas
 ------------
