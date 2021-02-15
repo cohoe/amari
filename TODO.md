@@ -11,6 +11,7 @@ Issues
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
 * Does SpecComponent fill in display_name or other things from the Ingredient
   on initial construction? I doubt it, and it probably should.
+* Inventory needs to validate that ingredients exist.
 
 High-Level Features
 -------------------
