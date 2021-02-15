@@ -3,9 +3,8 @@ ToDo
 
 Issues
 ------
-* Importers are skipping the Jamaica serializers by directly creating via
-  the factory. These should be re-worked to dump straight into the API (like
-  create/delete/recreate are) to catch more source data issues.
+* Should an object exist for Recipe? Definitely not stored but perhaps use this
+  as the construct for indexing and other such things?
 
 High-Level Features
 -------------------
@@ -24,18 +23,15 @@ API Functions
 
 Low-Priority
 ------------
-* Factory Cleanup
-  * Refactor the old factories to the new (inventory) style
-  * Combine and re-use common parser functions in BaseFactory.
-    Might need to move these into a seperate object after all
-    if I want to take advantage of factories that call other
-    factories.
 * auto-generate instructions?
 * More BarbadosObject for objects
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 * Can I use SQLAlchemy relationships?
 * Expand validators
+* Importers are skipping the Jamaica serializers by directly creating via
+  the factory. These should be re-worked to dump straight into the API (like
+  create/delete/recreate are) to catch more source data issues.
 
 Tortuga Data
 ------------
