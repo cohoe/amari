@@ -7,11 +7,10 @@ Issues
   as the construct for indexing and other such things?
 * Consider an ingredientkind of preparation. Used for things that you create at home.
   simple syrup, etc. Perhaps use Custom instead?
-* Glassware should also come from database like Constructions.
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
 * Does SpecComponent fill in display_name or other things from the Ingredient
-  on initial construction? I doubt it, and it probably should.
-* Inventory needs to validate that ingredients exist.
+  on initial construction? I doubt it, and it probably should. Probably same with 
+  glassware and any other fancy objects like that.
 
 High-Level Features
 -------------------
@@ -37,7 +36,8 @@ Low-Priority
 * Expand validators
 * Importers are skipping the Jamaica serializers by directly creating via
   the factory. These should be re-worked to dump straight into the API (like
-  create/delete/recreate are) to catch more source data issues.
+  create/delete/recreate are) to catch more source data issues. Deprecate these
+  in favor of a ApiClient or something like that.
 
 Tortuga Data
 ------------
