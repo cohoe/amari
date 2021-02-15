@@ -3,6 +3,11 @@ ToDo
 
 Issues
 ------
+* Importers are skipping the Jamaica serializers by directly creating via
+  the factory. These should be re-worked to dump straight into the API (like
+  create/delete/recreate are) to catch more source data issues.
+* Citation needs a year field to deal with the date vs year bullshit
+
 * TextFactory
 * Parser library for common data types. Need to work out relationship between
   factories and parsers for complex objects (ie, ones that need a raw_to_obj()).
@@ -14,7 +19,7 @@ High-Level Features
 * some way for custom/unknown bottles to be tracked in inventory
 * Notebook (all Notes, similar to Biblio)
 * Search by arbitrary text (no specific fields)
-* Background worker daemon with queuing
+* Background worker daemon with q21ueuing
 
 API Functions
 -------------
