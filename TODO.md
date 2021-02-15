@@ -5,9 +5,12 @@ Issues
 ------
 * Should an object exist for Recipe? Definitely not stored but perhaps use this
   as the construct for indexing and other such things?
-* need to validate garnish against the list of ingredients
 * Consider an ingredientkind of preparation. Used for things that you create at home.
   simple syrup, etc. Perhaps use Custom instead?
+* Glassware should also come from database like Constructions.
+* SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
+* Does SpecComponent fill in display_name or other things from the Ingredient
+  on initial construction? I doubt it, and it probably should.
 
 High-Level Features
 -------------------
@@ -30,7 +33,6 @@ Low-Priority
 * More BarbadosObject for objects
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
-* Can I use SQLAlchemy relationships?
 * Expand validators
 * Importers are skipping the Jamaica serializers by directly creating via
   the factory. These should be re-worked to dump straight into the API (like
@@ -44,6 +46,7 @@ Tortuga Data
 * Parse Upneat and MixTech scrapes (blehhhhh)
 * "original" specs should not exist.
 * More families
+* Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
 
 Future Ideas
 ------------
