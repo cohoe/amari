@@ -5,8 +5,6 @@ Issues
 ------
 * Should an object exist for Recipe? Definitely not stored but perhaps use this
   as the construct for indexing and other such things?
-* Consider an ingredientkind of preparation. Used for things that you create at home.
-  simple syrup, etc. Perhaps use Custom instead?
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
 
 High-Level Features
