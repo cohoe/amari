@@ -8,9 +8,6 @@ Issues
 * Consider an ingredientkind of preparation. Used for things that you create at home.
   simple syrup, etc. Perhaps use Custom instead?
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
-* Does SpecComponent fill in display_name or other things from the Ingredient
-  on initial construction? I doubt it, and it probably should. Probably same with 
-  glassware and any other fancy objects like that.
 
 High-Level Features
 -------------------
