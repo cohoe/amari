@@ -5,6 +5,12 @@ Issues
 ------
 * Should an object exist for Recipe? Definitely not stored but perhaps use this
   as the construct for indexing and other such things?
+* need to validate garnish against the list of ingredients
+* display_name is overzealous and is ignoring any values that were given. 
+  Just the Paperwork should not be Just The Paperwork. tommys marg, isle de cristo, 
+  7th planet, petes word
+* Consider an ingredientkind of preparation. Used for things that you create at home.
+  simple syrup, etc. Perhaps use Custom instead?
 
 High-Level Features
 -------------------
@@ -41,7 +47,6 @@ Tortuga Data
 * Parse Upneat and MixTech scrapes (blehhhhh)
 * "original" specs should not exist.
 * More families
-* list(Image(href, text, credit))
 
 Future Ideas
 ------------
