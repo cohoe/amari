@@ -5,7 +5,7 @@ Issues
 ------
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
   Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
-* Add a way to do from_json in caches so that json doesnt have to be loaded everywher.
+* Race condition for indexes on import? the results vary.
 
 High-Level Features
 -------------------
