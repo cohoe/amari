@@ -6,6 +6,8 @@ Issues
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
   Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
 * Race condition for indexes on import? the results vary.
+* Consider rebranding DrinkList to List and allow for lists to have ingredients too.
+* How to find muddled drinks
 
 High-Level Features
 -------------------
@@ -21,6 +23,7 @@ API Functions
 * GET /inventory/{id}/suggestions(increase?): Suggest common ingredients youre missing
   Maybe merge this as part of the report below?
 * GET /inventory/{id}/report (counts, recipes-available. aka InventoryReport obj)
+* POST+DELETE /lists/{id}/recipes
 
 Low-Priority
 ------------
@@ -44,6 +47,7 @@ Tortuga Data
 * Parse Upneat and MixTech scrapes (blehhhhh)
 * "original" specs should not exist.
 * More families
+* ABV
 
 Future Ideas
 ------------
@@ -57,3 +61,4 @@ Future Ideas
 * Cache invalidation via queue, Cassandra-esque read-repair for update?
 * Tests
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
+* Proof Calculation (requires ABV for ingredients)
