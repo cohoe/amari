@@ -5,7 +5,6 @@ Issues
 ------
 * SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
   Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
-* Consider rebranding DrinkList to List and allow for lists to have ingredients too.
 * How to find muddled drinks
 
 High-Level Features
