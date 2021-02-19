@@ -3,8 +3,6 @@ ToDo
 
 Issues
 ------
-* SpecComponent fields for Optional, Discarded, Flamed, Dehydrated, maybe Preparation?
-  Undo slice objects in favor of unit. Same with sprigs. Ponder this a bit more.
 
 High-Level Features
 -------------------
