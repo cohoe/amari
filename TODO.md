@@ -3,6 +3,8 @@ ToDo
 
 Issues
 ------
+* Figure out a pattern to securely update resources. Consider just doing
+  a construct-n-replace vs patch-in-place.
 
 High-Level Features
 -------------------
