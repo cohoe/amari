@@ -9,7 +9,6 @@ High-Level Features
 * User Identity
 * Unify slug and ID to a single field. CHeck on inventory.
 * some way for custom/unknown bottles to be tracked in inventory
-* Search by arbitrary text (no specific fields)
 * Background worker daemon with queuing
 
 API Functions
