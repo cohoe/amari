@@ -23,10 +23,6 @@ Low-Priority
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 * Expand validators
-* Importers are skipping the Jamaica serializers by directly creating via
-  the factory. These should be re-worked to dump straight into the API (like
-  create/delete/recreate are) to catch more source data issues. Deprecate these
-  in favor of a ApiClient or something like that.
 * CustomKind ingredients should support a recipe construct. Perhaps rebrand SpecComponent
   to Component and also utilize a list of Text objects for instructions.
 
