@@ -13,7 +13,6 @@ High-Level Features
 
 API Functions
 -------------
-* POST+DELETE /lists/{id}/items
 
 Low-Priority
 ------------
