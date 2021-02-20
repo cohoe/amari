@@ -51,6 +51,5 @@ Future Ideas
   flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
 * Recommend drinks to friends. Fuck is this turning into a social thing?
 * Cache invalidation via queue, Cassandra-esque read-repair for update?
-* Tests
 * Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
 * Proof Calculation (requires ABV for ingredients)
