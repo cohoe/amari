@@ -4,7 +4,10 @@ ToDo
 Issues
 ------
 * Figure out a pattern to securely update resources. Consider just doing
-  a construct-n-replace vs patch-in-place.
+  a construct-n-replace vs patch-in-place. So far just in /lists/{id}/items
+* CustomKind ingredients should support a recipe construct. Perhaps rebrand SpecComponent
+  to Component and also utilize a list of Text objects for instructions.
+* More BarbadosObject for objects
 
 High-Level Features
 -------------------
@@ -19,12 +22,9 @@ API Functions
 Low-Priority
 ------------
 * auto-generate instructions?
-* More BarbadosObject for objects
 * QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 * Expand validators
-* CustomKind ingredients should support a recipe construct. Perhaps rebrand SpecComponent
-  to Component and also utilize a list of Text objects for instructions.
 
 Tortuga Data
 ------------
