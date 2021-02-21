@@ -5,8 +5,6 @@ Issues
 ------
 * Figure out a pattern to securely update resources. Consider just doing
   a construct-n-replace vs patch-in-place. So far just in /lists/{id}/items
-* CustomKind ingredients should support a recipe construct. 
-  Also utilize a list of Text objects for instructions.
 
 High-Level Features
 -------------------
@@ -21,9 +19,7 @@ API Functions
 Low-Priority
 ------------
 * auto-generate instructions?
-* QueryCondition validator
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
-* Expand validators
 
 Tortuga Data
 ------------
