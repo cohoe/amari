@@ -7,7 +7,6 @@ Issues
   a construct-n-replace vs patch-in-place. So far just in /lists/{id}/items
 * CustomKind ingredients should support a recipe construct. 
   Also utilize a list of Text objects for instructions.
-* More BarbadosObject for objects
 
 High-Level Features
 -------------------
