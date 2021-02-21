@@ -18,7 +18,6 @@ API Functions
 
 Low-Priority
 ------------
-* auto-generate instructions?
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
 
 Tortuga Data
