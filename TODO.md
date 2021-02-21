@@ -5,12 +5,12 @@ Issues
 ------
 * Figure out a pattern to securely update resources. Consider just doing
   a construct-n-replace vs patch-in-place. So far just in /lists/{id}/items
+* Unify slug and ID to a single field. CHeck on inventory.
+* some way for custom/unknown bottles to be tracked in inventory
 
 High-Level Features
 -------------------
 * User Identity
-* Unify slug and ID to a single field. CHeck on inventory.
-* some way for custom/unknown bottles to be tracked in inventory
 * Background worker daemon with queuing
 
 API Functions
