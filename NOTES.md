@@ -15,3 +15,8 @@ AWS Aurora Serverless provides on-demand Postgres-compatible database which
 is an intriguing proposition. I think having hopes and dreams of DynamoDB are
 going out the window. It's all a moot point until the free tier of ElasticSearch
 becomes not-12-months.
+
+Examples
+--------
+Constructions has the latest pattern for good API endpoints including
+docs and return codes.
