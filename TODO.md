@@ -15,6 +15,10 @@ High-Level Features
 API Functions
 -------------
 
+Test Cases
+----------
+* InventoryItem CRUD
+
 Low-Priority
 ------------
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
