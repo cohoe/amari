@@ -20,3 +20,9 @@ Examples
 --------
 Constructions has the latest pattern for good API endpoints including
 docs and return codes.
+
+Caches
+------
+Should tablescans be eliminated in favor of Flask request caching? I feel
+like yes but I don't have a good way to do this yet. Also can't directly
+associate caches with factories because the cache requires the factory.

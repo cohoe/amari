@@ -4,11 +4,6 @@ ToDo
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
-* some way for custom/unknown bottles to be tracked in inventory
-* Should cache invalidation be handled in the factory insert/update/delete calls?
-* Deprecate TableScanCache in favor of flask request caching???
-  I'm not sure I can since I rely on it elsewhere in Barbados
-  like metrics and across various functions in Jamaica.
 
 High-Level Features
 -------------------
@@ -25,6 +20,7 @@ Test Cases
 Low-Priority
 ------------
 * Consider SQLAlchemy validators? https://docs.sqlalchemy.org/en/14/orm/mapped_attributes.html#simple-validators
+* some way for custom/unknown bottles to be tracked in inventory
 
 Tortuga Data
 ------------
