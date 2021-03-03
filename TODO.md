@@ -4,6 +4,9 @@ ToDo
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
+* component_display_names in search results is broken
+* Reconsider TableScanCache linking to factory.
+  https://stackoverflow.com/questions/7336802/how-to-avoid-circular-imports-in-python
 
 High-Level Features
 -------------------
