@@ -3,8 +3,6 @@ ToDo
 
 Auth0
 * pip install authlib python-dotenv
-* deal with Settings no default
-* Jamaica app secret key
 * Consider centralizeing settings
 
 Issues
