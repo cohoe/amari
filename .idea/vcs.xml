@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/havana" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/jamaica" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/london" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/panama" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/tortuga" vcs="Git" />
   </component>
 </project>
