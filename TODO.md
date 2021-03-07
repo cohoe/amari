@@ -3,7 +3,6 @@ ToDo
 
 Auth0
 * pip install authlib python-dotenv
-* Consider centralizeing settings
 
 Issues
 ------
