@@ -1,8 +1,7 @@
 ToDo
 ====
 
-Auth0
-* pip install authlib python-dotenv
+flask-security-too
 
 Issues
 ------
