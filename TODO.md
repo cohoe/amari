@@ -2,6 +2,11 @@ ToDo
 ====
 
 flask-security-too
+* Logout: `curl -v -H "Content-Type: application/json" -X GET -c /tmp/cookies.txt -b /tmp/cookies.txt http://localhost:8080/logout`
+* Login: `curl -v -H "Content-Type: application/json" -X POST -d '{"email": "test@me.com", "password": "password"}' -c /tmp/cookies.txt -b /tmp/cookies.txt http://localhost:8080/login\?include_auth_token`
+* https://stackoverflow.com/qustions/27356877/token-based-authentication-with-flask-security-extension
+* https://flask-security-too.readthedocs.io/en/stable/features.html?highlight=include_auth_token
+
 
 Issues
 ------
