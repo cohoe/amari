@@ -6,6 +6,9 @@ flask-security-too
 * Login: `curl -v -H "Content-Type: application/json" -X POST -d '{"email": "test@me.com", "password": "password"}' -c /tmp/cookies.txt -b /tmp/cookies.txt http://localhost:8080/login\?include_auth_token`
 * https://stackoverflow.com/qustions/27356877/token-based-authentication-with-flask-security-extension
 * https://flask-security-too.readthedocs.io/en/stable/features.html?highlight=include_auth_token
+* I think I can bastardize these to avoid needing the security blueprint.
+  https://github.com/Flask-Middleware/flask-security/blob/master/flask_security/views.py
+  Or just wrap around them?
 
 
 Issues
