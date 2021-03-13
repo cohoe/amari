@@ -15,7 +15,12 @@ High-Level Features
 Frontend
 --------
 * How to structure components? (Viewport, Breadcrumb, etc)
+* Are views components? How to orchestrate a "page".
 * State tracking, routes
+* Definitions: React vs Angular
+* What other UI kits exist besides Material and Bootstrap
+* review of props and state, also events?
+
 
 API Functions
 -------------
