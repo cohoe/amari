@@ -4,7 +4,6 @@ ToDo
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
-* component_display_names in search results is broken (and in cocktail resolution but this may have never worked?)
 * Reconsider TableScanCache linking to factory.
   https://stackoverflow.com/questions/7336802/how-to-avoid-circular-imports-in-python
 
@@ -12,6 +11,7 @@ High-Level Features
 -------------------
 * Background worker daemon with queuing
 * Add authentication to redis and zookeeper
+* User Preferences, specifically quantity units
 
 Frontend
 --------
@@ -44,6 +44,7 @@ Low-Priority
 
 Tortuga Data
 ------------
+* Do sanity check on units and see if there is any consistency that needs to be enforced.
 * Actually do tags (need seperate object, i'm ignoring them for now in the factory)
 * Ingredient Descriptions - semi auto-generate.
 * Servings (single, multi, batch)
