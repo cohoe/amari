@@ -1,8 +1,6 @@
 ToDo
 ====
 
-* Unify auth into a common decorator
-
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
