@@ -1,10 +1,6 @@
 ToDo
 ====
 
-User Identity
-* Logout: `curl -v -H "Content-Type: application/json" -X GET -c /tmp/cookies.txt -b /tmp/cookies.txt http://localhost:8080/logout`
-* Login: `curl -v -H "Content-Type: application/json" -X POST -d '{"email": "test@me.com", "password": "password"}' -c /tmp/cookies.txt -b /tmp/cookies.txt http://localhost:8080/login\?include_auth_token`
-
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
@@ -14,7 +10,6 @@ Issues
 
 High-Level Features
 -------------------
-* User Identity
 * Background worker daemon with queuing
 
 API Functions

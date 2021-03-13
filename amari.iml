@@ -7,6 +7,16 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/barbados" />
+      <excludeFolder url="file://$MODULE_DIR$/england" />
+      <excludeFolder url="file://$MODULE_DIR$/guyana" />
+      <excludeFolder url="file://$MODULE_DIR$/havana" />
+      <excludeFolder url="file://$MODULE_DIR$/jamaica" />
+      <excludeFolder url="file://$MODULE_DIR$/london" />
+      <excludeFolder url="file://$MODULE_DIR$/panama" />
+      <excludeFolder url="file://$MODULE_DIR$/tortuga" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Python 3.8 (amari) interpreter library" level="application" />
