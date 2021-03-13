@@ -12,6 +12,11 @@ High-Level Features
 -------------------
 * Background worker daemon with queuing
 
+Frontend
+--------
+* How to structure components? (Viewport, Breadcrumb, etc)
+* State tracking, routes
+
 API Functions
 -------------
 
