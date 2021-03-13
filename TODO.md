@@ -21,13 +21,15 @@ Frontend
   * How to structure components? (Viewport, Breadcrumb, etc)
   * Relative vs Absolute imports
   * React/Material tags or HTML? 
-* Are views components? How to orchestrate a "page".
-* State tracking, routes
+* Major Features
+  * Are views components? How to orchestrate a "page".
+  * State tracking, routes
+  * Swagger API client
 * Definitions: React vs Angular
 * What other UI kits exist besides Material and Bootstrap
-* review of props and state, also events?
-* Swagger API client
-* let, const, var - for loop
+* React/JS General
+  * let, const, var - for loop
+  * Does key have to be globally unique? Generate random value?
 
 API Functions
 -------------
