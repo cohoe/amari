@@ -11,19 +11,27 @@ Issues
 High-Level Features
 -------------------
 * Background worker daemon with queuing
+* Add authentication to redis and zookeeper
 
 Frontend
 --------
-* How to structure components? (Viewport, Breadcrumb, etc)
+* Components
+  * Naming convention on component files (and structure)
+  * Components to Objects mapping
+  * How to structure components? (Viewport, Breadcrumb, etc)
+  * Relative vs Absolute imports
+  * React/Material tags or HTML? 
 * Are views components? How to orchestrate a "page".
 * State tracking, routes
 * Definitions: React vs Angular
 * What other UI kits exist besides Material and Bootstrap
 * review of props and state, also events?
-
+* Swagger API client
+* let, const, var - for loop
 
 API Functions
 -------------
+* GET /api/v1/cocktails/martinez/rail-stop (specify a slug and limit the output?)
 
 Test Cases
 ----------
