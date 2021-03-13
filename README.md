@@ -3,25 +3,27 @@ Amari
 
 Components
 ----------
-
-### Barbados
-Python Object Library
+### Panama
+React Frontend WebApp
 
 ### Jamaica
 Flask API server
 
+### Barbados
+Python Object Library
+
 ### Havana
-Podman stuff
+Docker Backend Services
 
 ### Tortuga
-Static data 
-
-### England
-Backend CLI
+Static Data
 
 ### Medford
 
 ### India
+
+### England
+Backend CLI (deprecated)
 
 ### Brazil
 AWS (deprecated)
