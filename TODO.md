@@ -21,6 +21,7 @@ Frontend
   * How to structure components? (Viewport, Breadcrumb, etc)
   * Relative vs Absolute imports
   * React/Material tags or HTML? 
+  * What the fuck? https://material-ui.com/components/tabs/
 * Major Features
   * Are views components? How to orchestrate a "page".
   * State tracking, routes
