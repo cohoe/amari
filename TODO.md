@@ -31,6 +31,7 @@ Frontend
 * React/JS General
   * let, const, var - for loop
   * Does key have to be globally unique? Generate random value?
+  * async
 
 API Functions
 -------------
