@@ -32,6 +32,7 @@ Frontend
   * let, const, var - for loop
   * Does key have to be globally unique? Generate random value?
   * async
+  * Class inheritance
 
 API Functions
 -------------
