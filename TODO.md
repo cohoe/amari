@@ -27,6 +27,7 @@ Frontend
   * Are views components? How to orchestrate a "page".
   * State tracking, routes
   * Swagger API client
+  * Packaging & Deployment
 * -Definitions: React vs Angular-
 * What other UI kits exist besides Material and Bootstrap
 * -GraphQL: API v2.0-
