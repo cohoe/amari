@@ -6,7 +6,6 @@ Issues
 * Unify slug and ID to a single field. CHeck on inventory.
 * Reconsider TableScanCache linking to factory.
   https://stackoverflow.com/questions/7336802/how-to-avoid-circular-imports-in-python
-* Search not returning valid json
 
 High-Level Features
 -------------------
