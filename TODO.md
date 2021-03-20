@@ -15,30 +15,10 @@ High-Level Features
 
 Frontend
 --------
-* Components
-  * -Naming convention on component files (and structure): Yes-
-  * -Components to Objects mapping: Yeah that-
-  * -How to structure components? (Viewport, Breadcrumb, etc): Everything is a component-
-  * -Relative vs Absolute imports-
-  * -React/Material tags or HTML?-
-  * -What the fuck? https://material-ui.com/components/tabs/: TabPanel is supposed to be be a custom thing- 
 * Major Features
-  * Are views components? How to orchestrate a "page".
   * State tracking, routes
   * Swagger API client
   * Packaging & Deployment
-* -Definitions: React vs Angular-
-* What other UI kits exist besides Material and Bootstrap
-* -GraphQL: API v2.0-
-* React/JS General
-  * -let, const, var - for loop: Const for unchange, Let for change, don't do var. for...in for...of- 
-  * -Does key have to be globally unique? Generate random value?: Locally unique-
-  * -async: setThings are async so deal with it-
-  * -Class inheritance: Fuckno https://reactjs.org/docs/composition-vs-inheritance.html-
-* Wireframe
-  * Figma
-  * Balsamiq
-  * Work out UI flow first to ease the development of the UI
 
 API Functions
 -------------

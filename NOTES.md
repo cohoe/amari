@@ -47,3 +47,22 @@ Cognito. Memberships can be managed via future API endpoints in Jamaica talking
 directly to the Cognito management API. This solution has the advantage of offloading
 all the security-bullshit to Cognito and simply honoring/trusting the tokens that it
 generates. Note that tokens cannot be revoked after they are issued (only on expire).
+
+Frontend Development
+--------------------
+Random notes from talks with Ben:
+* Working out UI flows in a wireframe tool such as Figma/Balsamiq/Draw.io will save
+  a lot of headache later. This turned out to be true because I had no idea what
+  I wanted this thing to look like. I still don't, but at least I can visualize it.
+* Literally everything should be a component. UpperCase component names. Absolute
+  imports are a lot harder to do than I feel they should be, so I'm stuck with relative
+  hell. Use React/Material tags rather than straight HTML. Saves hassle later on.
+  I should be able to map components to Barbados Objects. Under no circumstances do
+  class inheritance in components. See https://reactjs.org/docs/composition-vs-inheritance.html
+* Certain Material documentation is garbage. see https://material-ui.com/components/tabs/
+* Jamaica v2.0 can be GraphQL based. No way am I spiritually prepared to re-write the
+  entire API yet.
+* `setThing()` functions are async, and you just gotta deal with it. Having multiple
+  `useEffect()`'s are OK (including when they do a simple `if ($thing) {} return`)
+* Keys in a mapping context need to be unique within their scope, not globally. Phew!
+* `const` == unchanging, `let` == changing
