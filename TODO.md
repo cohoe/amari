@@ -15,10 +15,18 @@ High-Level Features
 
 Frontend
 --------
+* Questions
+  * What is useStyles / makeStyles
+  * React fragments - <> vs <React.Fragment>, what are they?
+  * What is dispatch?
+  * What is CssBaseline, useTheme?
 * Major Features
   * State tracking, routes
   * Swagger API client
   * Packaging & Deployment
+* Useful bits
+  * HideOnScroll
+  * AppBar, ToolBar, LocalBar, Typography
 
 API Functions
 -------------
