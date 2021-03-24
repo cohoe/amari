@@ -1,7 +1,8 @@
 ToDo
 ====
 
-* Phone Mockup
+* Remove NullableBoolean and NullableString from API
+* Add api.doc() to all list functions and deal with Swagger issues
 
 Issues
 ------
