@@ -66,3 +66,14 @@ Random notes from talks with Ben:
   `useEffect()`'s are OK (including when they do a simple `if ($thing) {} return`)
 * Keys in a mapping context need to be unique within their scope, not globally. Phew!
 * `const` == unchanging, `let` == changing
+* useStyles/makeStyles is a Material thing for defining CSS in JS. Resultant classes
+  are component-specific so that's nice.
+* React Fragments (`<>`, `<React.Fragment`) let you shortcut the React requirement
+  to return a single element from a component but still have things adjacent.
+* CssBaseline, useTheme also a Material thing.
+* Redux is way too heavy for me right now. Should be able to get away with using React
+  Contexts instead.
+* You can build with `npm run build`.
+* React-Router (URLs hold all data). Routers can be sharded like the API namespaces in Flask. 
+* React-Query (Better loading management, caching, etc) https://react-query.tanstack.com/overview
+* Formik (form editing/posting/etc)
