@@ -1,9 +1,6 @@
 ToDo
 ====
 
-* Remove NullableBoolean and NullableString from API
-* Add api.doc() to all list functions and deal with Swagger issues
-
 Issues
 ------
 * Unify slug and ID to a single field. CHeck on inventory.
