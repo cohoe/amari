@@ -16,6 +16,9 @@ High-Level Features
 Frontend
 --------
 * Questions
+  * https://stackoverflow.com/questions/52237855/support-for-the-experimental-syntax-classproperties-isnt-currently-enabled
+    `npm install @babel/plugin-proposal-class-properties --save-dev`
+    Babelrc
 * Major Features
   * State tracking, routes
   * Swagger API client
