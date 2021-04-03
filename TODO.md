@@ -22,6 +22,7 @@ Frontend
     https://github.com/babel/babel/issues/8577
     https://github.com/swagger-api/swagger-codegen/issues/8024
     `java -jar swagger-codegen-cli.jar generate -i http://localhost:8080/api/swagger.json -l javascript -o ~/Projects/amari/panama/sdk`
+  * What is clsx and useTheme?
 * Major Features
   * State tracking, routes
   * Swagger API client
