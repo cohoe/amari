@@ -77,3 +77,8 @@ Random notes from talks with Ben:
 * React-Router (URLs hold all data). Routers can be sharded like the API namespaces in Flask. 
 * React-Query (Better loading management, caching, etc) https://react-query.tanstack.com/overview
 * Formik (form editing/posting/etc)
+
+Sizing of device styles:
+* xs == Phone
+* sm == Tablet
+* md == Desktop
