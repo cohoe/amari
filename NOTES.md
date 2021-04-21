@@ -78,7 +78,9 @@ Random notes from talks with Ben:
 * React-Query (Better loading management, caching, etc) https://react-query.tanstack.com/overview
 * Formik (form editing/posting/etc)
 
+@TODO this is not really accurate!
 Sizing of device styles:
 * xs == Phone
 * sm == Tablet
 * md == Desktop
+https://material-ui.com/customization/breakpoints/
