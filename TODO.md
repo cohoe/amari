@@ -3,7 +3,7 @@ ToDo
 
 Work Queue
 ----------
-* Add titles to the boxes
+* Make phone layout work
 * Something is wrong with location field population in origin (teatro)
 * Some kind of standardized auto-generated origin summary. Maybe make this part of the API?
 * Race condition with rendering <Spec> where the spec var isnt there yet. useEffect?
