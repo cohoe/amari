@@ -3,7 +3,6 @@ ToDo
 
 Work Queue
 ----------
-* Make phone layout work
 * Some kind of standardized auto-generated origin summary. Maybe make this part of the API?
 * Race condition with rendering <Spec> where the spec var isnt there yet. useEffect?
 * ContentPane toolbar with buttons and stuff (back to list, previous/next, display settings?)
@@ -31,8 +30,8 @@ Frontend
     https://github.com/swagger-api/swagger-codegen/issues/8024
     `java -jar swagger-codegen-cli.jar generate -i http://localhost:8080/api/swagger.json -l javascript -o ~/Projects/amari/panama/sdk`
   * What is clsx and useTheme?
-  * Is it better to return <Card/> or </>
   * Calculate grid spacing and stuff based on media query
+  * `<div className={classes.scrollPane + ' ' + classes.scrollPaneInactive}>` Simplify this
 * Major Features
   * State tracking, routes
   * Swagger API client
