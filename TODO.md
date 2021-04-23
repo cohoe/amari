@@ -3,13 +3,16 @@ ToDo
 
 Work Queue
 ----------
-* Some kind of standardized auto-generated origin summary. Maybe make this part of the API?
 * Race condition with rendering <Spec> where the spec var isnt there yet. useEffect?
 * ContentPane toolbar with buttons and stuff (back to list, previous/next, display settings?)
 * Search box
 
-Backend Issues
---------------
+Backend Work
+------------
+* Add auto-generated spec description based on closest ingredient parent. Example:
+  "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
+  Might have to factor in customs here? Or maybe they should count?
+* Some kind of standardized auto-generated origin summary.
 
 High-Level Features
 -------------------
@@ -41,9 +44,6 @@ Frontend
 * Random little things for later:
   * Have a dropdown or some other mechanism for selecting an inventory (or no inventory)
     to address SpecResolution.
-  * Add auto-generated spec description based on closest ingredient parent. Example:
-    "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
-    Might have to factor in customs here? Or maybe they should count?
 
 API Functions
 -------------
