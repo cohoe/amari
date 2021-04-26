@@ -23,25 +23,27 @@ High-Level Features
 
 Frontend
 --------
-* Questions
+* Things to review:
+  * Calculating "active" (ScrollPane/ContentPane routing)
+  * More better way of props children than just `{children}`?
+  * Worth trying to maintain some sense of h1-h7?
+  * `index.js` - when best or always?
+* Major Features
+  * State tracking, routes
+  * Swagger API client
+* Useful bits
+  * HideOnScroll
+  * AppBar, ToolBar, LocalBar
+* Random little things for later:
+  * Have a dropdown or some other mechanism for selecting an inventory (or no inventory)
+    to address SpecResolution.
+* API Client
   * https://stackoverflow.com/questions/52237855/support-for-the-experimental-syntax-classproperties-isnt-currently-enabled
     `npm install @babel/plugin-proposal-class-properties --save-dev`
     Babelrc
     https://github.com/babel/babel/issues/8577
     https://github.com/swagger-api/swagger-codegen/issues/8024
     `java -jar swagger-codegen-cli.jar generate -i http://localhost:8080/api/swagger.json -l javascript -o ~/Projects/amari/panama/sdk`
-  * What is clsx and useTheme?
-  * Calculate grid spacing and stuff based on media query
-  * `<div className={classes.scrollPane + ' ' + classes.scrollPaneInactive}>` Simplify this
-* Major Features
-  * State tracking, routes
-  * Swagger API client
-* Useful bits
-  * HideOnScroll
-  * AppBar, ToolBar, LocalBar, Typography
-* Random little things for later:
-  * Have a dropdown or some other mechanism for selecting an inventory (or no inventory)
-    to address SpecResolution.
 
 API Functions
 -------------
