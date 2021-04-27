@@ -4,6 +4,7 @@ ToDo
 Work Queue
 ----------
 * Search box
+* /cocktails scrolling is broken on mobile.
 
 Backend Work
 ------------
@@ -25,9 +26,15 @@ Frontend
 --------
 * Things to review:
   * Calculating "active" (ScrollPane/ContentPane routing)
+    * `useLocation` hook to figure out the route and render (or not) the scrollpane)
+    * Sub-routers to move all /cocktail logic into that specific component. https://reactrouter.com/web/api/Hooks/useroutematch
+    * https://www.npmjs.com/package/classnames
   * More better way of props children than just `{children}`?
+    * Yup, that's how you do that.
   * Worth trying to maintain some sense of h1-h7?
+    * Still enforces hierarchy. Just don't worry about style. Do that yourself.
   * `index.js` - when best or always?
+    * Always, unless its private
 * Major Features
   * State tracking, routes
   * Swagger API client
