@@ -70,6 +70,7 @@ Low-Priority
 
 Tortuga Data
 ------------
+* Restructure liqueur factoring in the imbibe article
 * Do sanity check on units and see if there is any consistency that needs to be enforced.
 * Actually do tags (need seperate object, i'm ignoring them for now in the factory)
 * Ingredient Descriptions - semi auto-generate.
