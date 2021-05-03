@@ -3,10 +3,7 @@ ToDo
 
 Work Queue
 ----------
-* Re-add Actionbar
-* Re-fix scrollpane visibility on mobile
 * Search box
-* /cocktails scrolling is broken on mobile.
 
 Backend Work
 ------------
