@@ -1,6 +1,19 @@
 Notes
 =====
 
+Future Ideas
+------------
+* Interactive drink builder. Start with a template, and swap out different
+  components. Split things, maybe some ML to make suggestions?
+* Purchase tracker. Log your purchases to generate an average cost. Maybe
+  also have a price logger? Focus on the first one.
+* "make me something" spin the wheel. Dice + Coin? Roll a base and 
+  flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
+* Recommend drinks to friends. Fuck is this turning into a social thing?
+* Cache invalidation via queue, Cassandra-esque read-repair for update?
+* Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
+* Proof Calculation (requires ABV for ingredients)
+
 Database
 --------
 Cannot take substantial advantage of SQLAlchemy Relationships since I don't
@@ -78,9 +91,8 @@ Random notes from talks with Ben:
 * React-Query (Better loading management, caching, etc) https://react-query.tanstack.com/overview
 * Formik (form editing/posting/etc)
 
-@TODO this is not really accurate!
 Sizing of device styles:
 * xs == Phone
 * sm == Tablet
-* md == Desktop
+* md/lg == Desktop
 https://material-ui.com/customization/breakpoints/

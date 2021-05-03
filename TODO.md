@@ -23,19 +23,8 @@ High-Level Features
 
 Frontend
 --------
-* Things to review:
-  * Calculating "active" (ScrollPane/ContentPane routing)
-    * `useLocation` hook to figure out the route and render (or not) the scrollpane)
-    * Sub-routers to move all /cocktail logic into that specific component. https://reactrouter.com/web/api/Hooks/useroutematch
-    * https://www.npmjs.com/package/classnames
-  * More better way of props children than just `{children}`?
-    * Yup, that's how you do that.
-  * Worth trying to maintain some sense of h1-h7?
-    * Still enforces hierarchy. Just don't worry about style. Do that yourself.
-  * `index.js` - when best or always?
-    * Always, unless its private
 * Major Features
-  * State tracking, routes
+  * State?
   * Swagger API client
 * Useful bits
   * HideOnScroll
@@ -76,16 +65,3 @@ Tortuga Data
 * More families
 * ABV
 * Field for type of ice
-
-Future Ideas
-------------
-* Interactive drink builder. Start with a template, and swap out different
-  components. Split things, maybe some ML to make suggestions?
-* Purchase tracker. Log your purchases to generate an average cost. Maybe
-  also have a price logger? Focus on the first one.
-* "make me something" spin the wheel. Dice + Coin? Roll a base and 
-  flip for refreshing/boozy. Slider for creation complexity (aka ingredient counts)
-* Recommend drinks to friends. Fuck is this turning into a social thing?
-* Cache invalidation via queue, Cassandra-esque read-repair for update?
-* Can scrapers be built for Imbibe/PUNCH/various other reliable sources?
-* Proof Calculation (requires ABV for ingredients)
