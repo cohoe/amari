@@ -3,7 +3,6 @@ ToDo
 
 Work Queue
 ----------
-* Search box
 
 Backend Work
 ------------
