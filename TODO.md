@@ -6,7 +6,6 @@ Work Queue
 
 Backend Work
 ------------
-* "Strega" search did not match "strega-liqueur"
 * Add auto-generated spec description based on closest ingredient parent. Example:
   "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
   Might have to factor in customs here? Or maybe they should count?
