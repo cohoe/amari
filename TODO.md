@@ -3,7 +3,6 @@ ToDo
 
 Work Queue
 ----------
-* Inventory recipe search bars on `Query parameter instructions is not supported`
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
 
