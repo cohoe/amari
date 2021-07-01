@@ -3,6 +3,18 @@ ToDo
 
 Work Queue
 ----------
+* Figure out what this means:
+  ```
+  ERROR:barbados:Encountered error (400 Client Error: BAD REQUEST for url: http://localhost:8080/api/v1/ingredients). No more retries.
+  ERROR:barbados:{'display_name': 'Ale', 'parent': 'beer', 'slug': 'ale', 'kind': 'ingredient'}
+  ERROR:barbados:Encountered error (400 Client Error: BAD REQUEST for url: http://localhost:8080/api/v1/ingredients). No more retries.
+  ERROR:barbados:{'display_name': 'Courvoisier Cognac', 'parent': 'vs-cognac', 'slug': 'courvoisier-vs-cognac', 'kind': 'product'}
+  ERROR:barbados:Encountered error (400 Client Error: BAD REQUEST for url: http://localhost:8080/api/v1/ingredients). No more retries.
+  ERROR:barbados:{'display_name': 'Fireball Cinnamon Whisky', 'parent': 'flavored-whiskey', 'slug': 'firewall-cinnamon-whisky', 'kind': 'product'}
+  ```
+* Inventory recipe search bars on `Query parameter instructions is not supported`
+* First run of a report needs to resolve all recipes otherwise you get a bogus
+  report contianing not much.
 
 Backend Work
 ------------
