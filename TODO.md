@@ -6,6 +6,10 @@ Work Queue
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
 * DELETE /api/vi/inventories/{id}/recipes doesn't seem to actually be working.
+  it's flask cache.
+* Cherry Liqueur !=> Swedish Punsch, Herbal Liqueur, etc
+* Add metric to report for which ingredients would enable the most recipes.
+  I'm pretty sure leaderboard is just count of missing.
 
 Backend Work
 ------------
