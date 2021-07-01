@@ -5,6 +5,7 @@ Work Queue
 ----------
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
+* DELETE /api/vi/inventories/{id}/recipes doesn't seem to actually be working.
 
 Backend Work
 ------------
@@ -12,6 +13,7 @@ Backend Work
   "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
   Might have to factor in customs here? Or maybe they should count?
 * Some kind of standardized auto-generated origin summary.
+* Changing the tree doesn't regenerate all resolutions.
 
 High-Level Features
 -------------------
