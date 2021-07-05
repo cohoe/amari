@@ -10,6 +10,7 @@ Work Queue
 * Cherry Liqueur !=> Swedish Punsch, Herbal Liqueur, etc
 * Add metric to report for which ingredients would enable the most recipes.
   I'm pretty sure leaderboard is just count of missing.
+* Delete inventory does not flush resolutions from elasticsearch
 
 Backend Work
 ------------
