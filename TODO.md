@@ -3,7 +3,8 @@ ToDo
 
 Work Queue
 ----------
-* Searching missing=0 yields no results. Problem with range processing.
+* Do full re-init. Got burned on the inventoryspecresolution index being a thing
+  that isn't used anymore.
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
 * DELETE /api/vi/inventories/{id}/recipes doesn't seem to actually be working.
