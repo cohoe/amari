@@ -3,6 +3,7 @@ ToDo
 
 Work Queue
 ----------
+* Searching missing=0 yields no results. Problem with range processing.
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
 * DELETE /api/vi/inventories/{id}/recipes doesn't seem to actually be working.
