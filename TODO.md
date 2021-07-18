@@ -5,12 +5,8 @@ Work Queue
 ----------
 * First run of a report needs to resolve all recipes otherwise you get a bogus
   report contianing not much.
-* DELETE /api/vi/inventories/{id}/recipes doesn't seem to actually be working.
-  it's flask cache.
 * Add metric to report for which ingredients would enable the most recipes.
   I'm pretty sure leaderboard is just count of missing.
-* Delete inventory does not flush resolutions from elasticsearch - this might not be valid.
-  Might have been looking at the wrong thing.
 * Search endpoint for no customs.
 
 Backend Work
