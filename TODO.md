@@ -3,19 +3,20 @@ ToDo
 
 Work Queue
 ----------
-* First run of a report needs to resolve all recipes otherwise you get a bogus
-  report contianing not much.
-* Add metric to report for which ingredients would enable the most recipes.
-  I'm pretty sure leaderboard is just count of missing.
-* Search endpoint for no customs.
 
 Backend Work
 ------------
+* Move search endpoints to `/api/v1/search/${resource}`.
 * Add auto-generated spec description based on closest ingredient parent. Example:
   "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
   Might have to factor in customs here? Or maybe they should count?
 * Some kind of standardized auto-generated origin summary.
 * Changing the tree doesn't regenerate all resolutions.
+* First run of a report needs to resolve all recipes otherwise you get a bogus
+  report contianing not much.
+* Add metric to report for which ingredients would enable the most recipes.
+  I'm pretty sure leaderboard is just count of missing.
+* Search endpoint for no customs.
 
 High-Level Features
 -------------------
