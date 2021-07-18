@@ -3,6 +3,7 @@ ToDo
 
 Work Queue
 ----------
+* Can't re-init because certain settings aren't defined.
 * Do full re-init. Got burned on the inventoryspecresolution index being a thing
   that isn't used anymore.
 * First run of a report needs to resolve all recipes otherwise you get a bogus
