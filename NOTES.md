@@ -96,3 +96,18 @@ Sizing of device styles:
 * sm == Tablet
 * md/lg == Desktop
 https://material-ui.com/customization/breakpoints/
+
+Python Setup
+------------
+If you need to upgrade the virtualenv:
+```
+python3 -m venv --upgrade ~/.virtualenvs/amari
+```
+
+This will blow away all installed modules so some additional work is in order:
+```
+# Havana
+pip install -r requirements
+# Barbados, London, then Jamaica
+pip install -e .
+```
