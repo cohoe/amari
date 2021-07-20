@@ -3,6 +3,8 @@ ToDo
 
 Work Queue
 ----------
+* Formik for forms.
+* Make a GoGoGo not reload the page. Should be able to update and intercept in JS.
 
 Backend Work
 ------------
