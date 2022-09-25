@@ -5,10 +5,15 @@ Work Queue
 ----------
 * Formik for forms.
 * Make a GoGoGo not reload the page. Should be able to update and intercept in JS.
+* Consider adding lists functionality.
+* Instance of Jamaica to Columbia.
 
 Backend Work
 ------------
-* Move search endpoints to `/api/v1/search/${resource}`.
+* Search
+  * Search endpoint for no customs.
+  * Support multiple construction options.
+  * Move search endpoints to `/api/v1/search/${resource}`.
 * Add auto-generated spec description based on closest ingredient parent. Example:
   "Dead Rabbit Irish Whiskey, Simple Syrup" -> "Irish Whiskey, Simple Syrup"
   Might have to factor in customs here? Or maybe they should count?
@@ -18,7 +23,6 @@ Backend Work
   report contianing not much.
 * Add metric to report for which ingredients would enable the most recipes.
   I'm pretty sure leaderboard is just count of missing.
-* Search endpoint for no customs.
 
 High-Level Features
 -------------------
@@ -40,6 +44,7 @@ Frontend
 * Random little things for later:
   * Have a dropdown or some other mechanism for selecting an inventory (or no inventory)
     to address SpecResolution.
+  * "Random" button for random result from list (also limits scope to search).
 * API Client
   * https://stackoverflow.com/questions/52237855/support-for-the-experimental-syntax-classproperties-isnt-currently-enabled
     `npm install @babel/plugin-proposal-class-properties --save-dev`
